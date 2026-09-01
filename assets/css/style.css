@@ -319,3 +319,10 @@
 .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 @media(max-width:760px){.grid-2,.grid-3{grid-template-columns:1fr}}
+
+/* ═══ 可點卡片（導向對應頁） ═══ */
+a.card,a.fcard{cursor:pointer;text-decoration:none;transition:transform .2s,border-color .2s,box-shadow .2s}
+a.card:hover,a.fcard:hover{transform:translateY(-4px);border-color:var(--gold);box-shadow:0 14px 30px -18px rgba(46,169,104,.55)}
+a.card .card__t::after{content:"›";margin-left:auto;color:var(--gold);font-weight:900;font-size:1.25rem;opacity:.75;line-height:1}
+a.fcard{position:relative}
+a.fcard::after{content:"›";position:absolute;top:16px;right:16px;color:var(--gold);font-weight:900;font-size:1.15rem;opacity:.6}
