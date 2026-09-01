@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="曜魂天堂 — 變身與寵物系統，收集變身卡與寵物，附帶專屬外觀與被動屬性加成">
+<title>變身與寵物 — 曜魂天堂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../assets/images/logo-circle.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════ 左側章回索引書脊 ═══════════ -->
+  <aside class="rail rail--sub">
+    <a href="../index.html" class="rail__emblem"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"></a>
+    <a href="../index.html"><span class="n">序</span>開卷</a>
+    <a href="news.html"><span class="n">壹</span>公告</a>
+    <a href="events.html"><span class="n">貳</span>活動</a>
+    <a href="features-overview.html"><span class="n">參</span>特色</a>
+    <a href="download.html"><span class="n">肆</span>下載</a>
+    <span class="rail__line">曜耀臨世</span>
+  </aside>
+
+  <div class="page">
+
+  <!-- ═══════════ 頂部選單 ═══════════ -->
+  <nav class="top">
+    <div class="top__in">
+      <a href="../index.html" class="top__logo"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="top__name">曜魂天堂</span></a>
+      <div class="top__menu">
+        <a href="download.html" class="prime">遊戲下載</a>
+        <a href="news.html">最新公告</a>
+        <a href="events.html">活動資訊</a>
+        <a href="features-overview.html">遊戲特色</a>
+        <a href="version.html">版本設定</a>
+        <a href="items-overview.html">裝備道具</a>
+        <a href="boss-guide.html">BOSS介紹</a>
+        <a href="sponsor.html">贊助說明</a>
+      </div>
+      <button class="top__burger" id="burger" aria-label="選單"><span></span><span></span><span></span></button>
+    </div>
+    <div class="top__mobile" id="mnav">
+      <a href="download.html">遊戲下載</a><a href="news.html">最新公告</a><a href="events.html">活動資訊</a>
+      <a href="features-overview.html">遊戲特色</a><a href="version.html">版本設定</a><a href="items-overview.html">裝備道具</a>
+      <a href="boss-guide.html">BOSS介紹</a><a href="sponsor.html">贊助說明</a><a href="promote.html">推文推廣</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════ 卷首 ═══════════ -->
+  <header class="phero">
+    <div class="phero__bg"></div>
+    <div class="phero__veil"></div>
+    <div class="phero__in">
+      <div class="phero__num">變</div>
+      <div>
+        <div class="phero__eyebrow">TRANSFORM &amp; PET · 變身寵物</div>
+        <h1 class="phero__h1">變身<em>與寵物</em></h1>
+        <p class="phero__sub">收集變身卡與夥伴寵物，化身異形之姿，喚伴同行沙場。每一型態皆附專屬外觀與被動屬性加成，稀有度越高，加成越豐厚。</p>
+      </div>
+    </div>
+    <div class="phero__crumb"><a href="../index.html">首頁</a> ／ <a href="items-overview.html">裝備道具</a> ／ 變身與寵物</div>
+  </header>
+
+  <!-- ═══════════ 內文 ═══════════ -->
+  <section class="sec sec--a">
+    <div class="wrap">
+
+      <!-- ══════ 變身系統 ══════ -->
+      <div class="h-line rv"><span class="h-line__t">🦋 變身系統</span></div>
+
+      <p class="lead rv">使用「變身卡」可化身為各式怪物與英雄形態，除了替角色換上專屬外觀，更會依卡片<b>稀有度</b>賦予強力的<b>被動屬性加成</b>。稀有度越高，攻速、施法與戰鬥屬性加成越顯著，<b>傳說</b>以上更附帶複合屬性。</p>
+
+      <div class="card rv">
+        <div class="card__t"><span class="seal">卡</span>系統說明</div>
+        <ul class="ylist">
+          <li>透過商城、活動與 BOSS 掉落取得<b>變身卡</b>，於變身欄位裝備即可化身。</li>
+          <li>變身提供<b>攻擊速度</b>與<b>施法速度</b>加成，稀有度越高，速度與戰鬥屬性越強。</li>
+          <li><b>英雄</b>以下屬同一速度基準；<b>傳說</b>額外附加戰鬥屬性；<b>神話</b>擁有強力複合屬性。</li>
+          <li>相同稀有度可透過<b>合成升階</b>提升為更高稀有度，機率見下表。</li>
+          <li>變身外觀為<b>共通造型</b>，不影響原職業技能，可自由切換型態。</li>
+        </ul>
+      </div>
+
+      <!-- 稀有度效果總覽 -->
+      <div class="h-line rv" style="margin-top:30px"><span class="h-line__t">✨ 稀有度與加成</span></div>
+      <div class="ytable-wrap rv">
+        <table class="ytable">
+          <thead>
+            <tr><th>稀有度</th><th>速度加成</th><th>附加效果</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="j">⚪ 一般</span></td><td>攻速 / 施法 <span class="g">+33%</span></td><td>基礎變身，入門即用。</td></tr>
+            <tr><td><span class="j">🟢 高級</span></td><td>攻速 / 施法 <span class="g">+33%</span></td><td>進階外觀，速度同一般基準。</td></tr>
+            <tr><td><span class="j">🔵 稀有</span></td><td>攻速 / 施法 <span class="g">+33%</span></td><td>精良變身，種類豐富。</td></tr>
+            <tr><td><span class="j">🔴 英雄</span></td><td>攻速 / 施法 <span class="g">+33%</span></td><td>強力變身，造型華麗。</td></tr>
+            <tr><td><span class="g">🟣 傳說</span></td><td>攻速 / 施法 <span class="g">+33%</span></td><td>額外附加<b>近/遠攻、暈命暈抗、減傷</b>等戰鬥屬性。</td></tr>
+            <tr><td><span class="g">👑 神話</span></td><td>攻速 / 施法 <span class="g">+33%</span></td><td>強力<b>複合屬性</b>，效益遠勝一般變身。</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 合成升階機率 -->
+      <div class="h-line rv" style="margin-top:30px"><span class="h-line__t">◈ 合成升階機率</span></div>
+      <div class="ytable-wrap rv">
+        <table class="ytable">
+          <thead>
+            <tr><th>升階方向</th><th>成功機率</th><th>備註</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>⚪ 一般 → 🟢 高級</td><td><span class="j">80%</span></td><td>失敗不消失，可重複挑戰。</td></tr>
+            <tr><td>🟢 高級 → 🔵 稀有</td><td><span class="j">50%</span></td><td>建議備妥多張同階卡。</td></tr>
+            <tr><td>🔵 稀有 → 🔴 英雄</td><td><span class="g">35%</span></td><td>可搭配活動加成道具提升。</td></tr>
+            <tr><td>🔴 英雄 → 🟣 傳說</td><td><span class="g">18%</span></td><td>解鎖額外戰鬥屬性的關鍵一階。</td></tr>
+            <tr><td>🟣 傳說 → 👑 神話</td><td><span class="chip chip--seal">尚未開放</span></td><td>神話合成將於後續版本開放。</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 傳說變身屬性 -->
+      <div class="h-line rv" style="margin-top:30px"><span class="h-line__t">🟣 傳說變身 · 專屬屬性</span></div>
+      <div class="ytable-wrap rv">
+        <table class="ytable">
+          <thead>
+            <tr><th>變身型態</th><th>類型</th><th>額外屬性加成</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>屠龍者</td><td><span class="j">遠程可用</span></td><td>近/遠攻 +2、減傷 +1</td></tr>
+            <tr><td>軍團長艾克斯特</td><td><span class="j">遠程可用</span></td><td>遠攻 +3、暈抗 +4、無視減傷 +2</td></tr>
+            <tr><td>齊天大聖</td><td><span class="j">遠程可用</span></td><td>減傷 +2、近/遠傷 +2、魔攻 +1</td></tr>
+            <tr><td>席琳的守衛</td><td><span class="j">遠程可用</span></td><td>遠攻 +3、暈命 +3%、暈抗 +4%</td></tr>
+            <tr><td>天鵝的勞安格林</td><td><span class="g">近戰通用</span></td><td>近攻 +3、防禦 +1、暈命 +3</td></tr>
+            <tr><td>黑暗之星宙斯</td><td><span class="g">近戰通用</span></td><td>魔攻 +1、回魔 +3、昏迷耐性 +4%</td></tr>
+            <tr><td>地獄死亡騎士</td><td><span class="g">近戰通用</span></td><td>減傷 +2、PVP 減傷 +2</td></tr>
+            <tr><td>暗黑龍阿頓</td><td><span class="g">近戰通用</span></td><td>近攻 +3、暈命 +6%、無視減傷 +3</td></tr>
+            <tr><td>暗黑龍絲莉安</td><td><span class="g">近戰通用</span></td><td>遠攻 +3、暈命 +6%、無視減傷 +3</td></tr>
+            <tr><td>龍鬥士</td><td><span class="g">近戰通用</span></td><td>近攻 +3、暈命 +3%、暈抗 +4%、恐抗 +3%、無視閃避 +1</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 神話變身屬性 -->
+      <div class="h-line rv" style="margin-top:30px"><span class="h-line__t">👑 神話變身 · 複合屬性</span></div>
+      <div class="tip tip--gold rv">
+        <div class="tip__ic">🔒</div>
+        <div class="tip__b">神話變身目前<b>尚未開放合成</b>，以下為預覽屬性資料，實際開放時間請留意官方公告。</div>
+      </div>
+      <div class="ytable-wrap rv">
+        <table class="ytable">
+          <thead>
+            <tr><th>變身型態</th><th>類型</th><th>複合屬性加成</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>槍手（神話）</td><td><span class="j">遠程可用</span></td><td>遠攻 +7、遠命 +5、昏迷耐性 +5、支撐耐性 +4、三重矢傷害 +7</td></tr>
+            <tr><td>海王波賽頓（神話）</td><td><span class="j">遠程可用</span></td><td>近攻 +3、遠攻 +8、遠命 +5、昏迷命中 +8%、昏迷耐性 +5、魔攻 +8</td></tr>
+            <tr><td>雷神（神話）</td><td><span class="j">遠程可用</span></td><td>近+遠攻 +5、魔攻 +8、三重矢傷害 +5、昏迷命中 +8%、PVP 傷害 +2</td></tr>
+            <tr><td>神聖劍士（神話）</td><td><span class="g">近戰通用</span></td><td>近攻 +8、昏迷命中 +8%、昏迷耐性 +5、近遠命中 +3、PVP 減傷 +2</td></tr>
+            <tr><td>白金巴風特（神話）</td><td><span class="g">近戰通用</span></td><td>昏迷耐性 +8%、SP +10、PVP 減傷 +5、近攻 +3、近命 +10、魔法爆擊 +5</td></tr>
+            <tr><td>死神（神話）</td><td><span class="g">近戰通用</span></td><td>近攻 +5、近命 +10、昏迷耐性 +8、吸取 MP +10、魔攻 +12、魔法爆擊 +5</td></tr>
+            <tr><td>王族（神話）</td><td><span class="g">近戰通用</span></td><td>近+遠攻 +5、魔攻 +5、三重矢傷害 +5、昏迷命中 +8%、PVP 傷害 +2、PVP 減傷 +2</td></tr>
+            <tr><td>龍騎士（神話）</td><td><span class="g">近戰通用</span></td><td>近攻 +5、魔攻 +5、昏迷命中 +8%、昏迷耐性 +5、PVP 傷害 +2、藥水恢復量 +50</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tip tip--seal rv">
+        <div class="tip__ic">⚠</div>
+        <div class="tip__b">遊戲內因字數限制，傳說以上變身的詳細能力說明恕不完整顯示，完整屬性請以本頁資料與官方公告為準。</div>
+      </div>
+
+      <!-- ══════ 寵物系統 ══════ -->
+      <div class="h-line rv" style="margin-top:44px"><span class="h-line__t">🐾 寵物系統</span></div>
+
+      <p class="lead rv">於野外<b>捕捉</b>幼獸，收服為隨行夥伴。寵物會隨戰鬥與餵養<b>成長進化</b>，每一階段解鎖更強的被動屬性，並替主人分擔戰鬥。收集稀有寵物，讓夥伴與你並肩征戰曜魂大陸。</p>
+
+      <div class="card rv">
+        <div class="card__t"><span class="seal">寵</span>捕捉與進化</div>
+        <ul class="ylist">
+          <li>使用<b>捕捉繩</b>對低血量的野生幼獸出手，依寵物稀有度決定捕捉成功率。</li>
+          <li>收服後裝備<b>寵物項圈</b>召喚同行，寵物提供<b>被動屬性加成</b>並協助攻擊。</li>
+          <li>持續<b>餵養與戰鬥</b>累積親密度與經驗，達標即可<b>進化</b>至下一階。</li>
+          <li>進化共分<b>幼年 → 成長 → 完全 → 究極</b>四階，階段越高外觀越華麗、加成越強。</li>
+          <li>稀有度<b>傳說</b>以上寵物附帶<b>主動技能</b>，可於戰鬥中協助控場或補益。</li>
+        </ul>
+      </div>
+
+      <!-- 寵物捕捉進化表 -->
+      <div class="h-line rv" style="margin-top:30px"><span class="h-line__t">🐣 寵物 · 捕捉與被動屬性</span></div>
+      <div class="ytable-wrap rv">
+        <table class="ytable">
+          <thead>
+            <tr><th>寵物</th><th>稀有度</th><th>捕捉率 · 被動屬性</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>翠羽幼狐</td><td><span class="j">🟢 高級</span></td><td>捕捉 <span class="j">60%</span> · 移動速度 +5%、HP 上限 +80</td></tr>
+            <tr><td>石甲小龜</td><td><span class="j">🔵 稀有</span></td><td>捕捉 <span class="j">45%</span> · 防禦 +2、減傷 +1</td></tr>
+            <tr><td>烈焰狼崽</td><td><span class="j">🔵 稀有</span></td><td>捕捉 <span class="j">45%</span> · 近攻 +2、近命 +1</td></tr>
+            <tr><td>風翎鷹雛</td><td><span class="g">🔴 英雄</span></td><td>捕捉 <span class="g">30%</span> · 遠攻 +2、攻速 +3%</td></tr>
+            <tr><td>雷紋幼豹</td><td><span class="g">🔴 英雄</span></td><td>捕捉 <span class="g">30%</span> · 近攻 +3、暴擊 +2%</td></tr>
+            <tr><td>曜光聖獸</td><td><span class="g">🟣 傳說</span></td><td>捕捉 <span class="g">15%</span> · 全屬性 +2、附主動技「聖光庇護」</td></tr>
+            <tr><td>幽冥魂貓</td><td><span class="g">🟣 傳說</span></td><td>捕捉 <span class="g">15%</span> · 魔攻 +3、吸取 MP +5、附主動技「魂噬」</td></tr>
+            <tr><td>翠淵神龍</td><td><span class="g">👑 神話</span></td><td><span class="chip chip--seal">未開放</span> · 全攻 +5、減傷 +3、附主動技「龍息」</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 進化階段 -->
+      <div class="h-line rv" style="margin-top:30px"><span class="h-line__t">🌱 進化階段 · 加成成長</span></div>
+      <div class="ytable-wrap rv">
+        <table class="ytable">
+          <thead>
+            <tr><th>進化階段</th><th>解鎖條件</th><th>加成成長</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="j">幼年</span></td><td>捕捉初始形態</td><td>基礎被動屬性，外觀為幼獸姿。</td></tr>
+            <tr><td><span class="j">成長</span></td><td>親密度 Lv.10 · 餵養達標</td><td>被動屬性 <span class="g">×1.5</span>，體型與外觀成長。</td></tr>
+            <tr><td><span class="g">完全</span></td><td>親密度 Lv.30 · 進化石 ×1</td><td>被動屬性 <span class="g">×2</span>，解鎖專屬光效。</td></tr>
+            <tr><td><span class="g">究極</span></td><td>親密度 Lv.50 · 究極進化石 ×1</td><td>被動屬性 <span class="g">×3</span>，傳說以上解鎖主動技能。</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tip tip--gold rv">
+        <div class="tip__ic">🔔</div>
+        <div class="tip__b">變身卡與寵物皆可透過<b>活動</b>與<b>BOSS 掉落</b>取得，稀有型態限時開放捕捉。加入官方 LINE 社群，第一時間掌握限定變身與稀有寵物的開放資訊。</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ 頁尾 ═══════════ -->
+  <footer class="foot">
+    <div class="foot__top">
+      <div class="foot__brand"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="n">曜魂天堂</span></div>
+      <nav class="foot__links">
+        <a href="features-overview.html">特色介紹</a><span class="foot__sep">·</span>
+        <a href="rules.html">遊戲規章</a><span class="foot__sep">·</span>
+        <a href="sponsor.html">贊助須知</a><span class="foot__sep">·</span>
+        <a href="disclaimer.html">免責聲明</a><span class="foot__sep">·</span>
+        <a href="contact.html">聯絡我們</a>
+      </nav>
+    </div>
+    <div class="foot__copy"><p>© 2026 曜魂天堂 · 本遊戲限 18 歲以上玩家參與 · 遊戲有成癮性，請節制遊玩 · 本站與 NC Soft 官方無任何關聯</p></div>
+    <div class="foot__credit">
+      <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" style="color:#b6892a;font-size:12px;letter-spacing:1.2px;font-weight:600;text-shadow:0 0 10px rgba(201,169,110,0.36);text-decoration:none;">阿柴美工 LINE @323rffot 美工找我~</a>
+      <a href="https://www.gamex123.com/lineage.html" target="_blank" rel="noopener" style="display:inline-flex;opacity:0.82;transition:opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.82'">
+        <img src="../assets/images/private-server-123.gif" alt="私服123" style="display:block;width:78px;height:auto;" loading="lazy">
+      </a>
+    </div>
+  </footer>
+
+  </div><!-- /.page -->
+
+  <!-- ═══════════ 浮動側欄 ═══════════ -->
+  <div class="float">
+    <a href="sponsor.html" title="贊助"><svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61z"/></svg>贊助</a>
+    <a href="download.html" title="下載"><svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>下載</a>
+    <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" class="line" title="社群"><svg viewBox="0 0 24 24"><path d="M24 10.3C24 4.94 18.62.57 12 .57S0 4.94 0 10.3c0 4.81 4.27 8.84 10.04 9.61.39.08.92.26 1.06.59.12.3.08.77.04 1.08l-.17 1.02c-.04.3-.24 1.19 1.05.64 1.29-.54 6.92-4.08 9.44-6.97C23.18 14.4 24 12.46 24 10.3M7.75 13.5H5.36a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.35 0 .63.28.63.63v4.13h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63m2.47-.63c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m5.74 0c0 .27-.17.51-.43.6a.65.65 0 01-.71-.22l-2.44-3.32v2.94c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.27.17-.51.43-.6a.62.62 0 01.7.22l2.46 3.33V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m3.86-2.38c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-1.76v1.12h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-2.39a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63h2.39c.35 0 .63.28.63.63 0 .35-.28.63-.63.63h-1.76v1.13h1.76"/></svg>社群</a>
+  </div>
+
+  <script>
+  (function(){var b=document.getElementById('burger'),m=document.getElementById('mnav');if(b&&m)b.addEventListener('click',function(){m.classList.toggle('open');});})();
+  (function(){var els=document.querySelectorAll('.rv');if(!els.length||!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});els.forEach(function(e){io.observe(e);});})();
+  </script>
+</body>
+</html>

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="曜魂天堂 — 聖物系統：收集並升階聖物，解鎖全帳號共享的永久被動屬性">
+<title>聖物系統 — 曜魂天堂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../assets/images/logo-circle.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════ 左側章回索引書脊 ═══════════ -->
+  <aside class="rail rail--sub">
+    <a href="../index.html" class="rail__emblem"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"></a>
+    <a href="../index.html"><span class="n">序</span>開卷</a>
+    <a href="news.html"><span class="n">壹</span>公告</a>
+    <a href="events.html"><span class="n">貳</span>活動</a>
+    <a href="features-overview.html"><span class="n">參</span>特色</a>
+    <a href="download.html"><span class="n">肆</span>下載</a>
+    <span class="rail__line">曜耀臨世</span>
+  </aside>
+
+  <div class="page">
+
+  <!-- ═══════════ 頂部選單 ═══════════ -->
+  <nav class="top">
+    <div class="top__in">
+      <a href="../index.html" class="top__logo"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="top__name">曜魂天堂</span></a>
+      <div class="top__menu">
+        <a href="download.html" class="prime">遊戲下載</a>
+        <a href="news.html">最新公告</a>
+        <a href="events.html">活動資訊</a>
+        <a href="features-overview.html">遊戲特色</a>
+        <a href="version.html">版本設定</a>
+        <a href="items-overview.html">裝備道具</a>
+        <a href="boss-guide.html">BOSS介紹</a>
+        <a href="sponsor.html">贊助說明</a>
+      </div>
+      <button class="top__burger" id="burger" aria-label="選單"><span></span><span></span><span></span></button>
+    </div>
+    <div class="top__mobile" id="mnav">
+      <a href="download.html">遊戲下載</a><a href="news.html">最新公告</a><a href="events.html">活動資訊</a>
+      <a href="features-overview.html">遊戲特色</a><a href="version.html">版本設定</a><a href="items-overview.html">裝備道具</a>
+      <a href="boss-guide.html">BOSS介紹</a><a href="sponsor.html">贊助說明</a><a href="promote.html">推文推廣</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════ 卷首 ═══════════ -->
+  <header class="phero">
+    <div class="phero__bg"></div>
+    <div class="phero__veil"></div>
+    <div class="phero__in">
+      <div class="phero__num">聖</div>
+      <div>
+        <div class="phero__eyebrow">RELIC · 聖物系統</div>
+        <h1 class="phero__h1">聖物<em>系統</em></h1>
+        <p class="phero__sub">收集散落各處的聖物碎片，逐階升華圖騰之力。聖物一經召喚即刻生效，並以全帳號共享的永久被動屬性，長伴每一位角色征戰曜魂大陸。</p>
+      </div>
+    </div>
+    <div class="phero__crumb"><a href="../index.html">首頁</a> ／ <a href="items-overview.html">裝備道具</a> ／ 聖物系統</div>
+  </header>
+
+  <!-- ═══════════ 內文 ═══════════ -->
+  <section class="sec sec--a">
+    <div class="wrap">
+
+      <!-- 系統說明 -->
+      <div class="h-line rv"><span class="h-line__t">聖物系統概述</span></div>
+
+      <div class="card rv">
+        <div class="card__t"><span class="seal">聖</span>召喚即生效 · 全帳號共享</div>
+        <p class="prose" style="margin:0 0 14px">聖物是曜魂天堂的核心養成系統。角色召喚聖物後，其加成<b style="color:var(--gold-hi)">即刻生效</b>；升階所得的更高階屬性，同樣於召喚當下套用。所有聖物成長進度<b style="color:var(--gold-hi)">綁定帳號、跨角共享</b>，主號練成的圖騰之力可惠及全帳號所有角色。</p>
+        <p class="prose" style="margin:0">依職業取向分為近戰、遠程、法師三大系列，每系列各七個升階階段，逐步強化 HP、經驗與職業專屬的攻擊、命中及自動施法能力。</p>
+      </div>
+
+      <!-- 強化說明 -->
+      <div class="h-line rv"><span class="h-line__t">升階與強化規則</span></div>
+
+      <div class="card rv">
+        <div class="card__t"><span class="seal">階</span>成長藥劑 · 升階規則</div>
+        <div class="ytable-wrap" style="margin-bottom:16px">
+          <table class="ytable">
+            <thead>
+              <tr><th>項目</th><th>說明</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="g">強化道具</span></td><td>聖物成長藥劑（掉落於<span class="j">傲慢之塔 1–10F</span>）</td></tr>
+              <tr><td><span class="g">強化費用</span></td><td>每次嘗試消耗 <span class="j">10,000 天幣</span></td></tr>
+              <tr><td><span class="g">失敗懲罰</span></td><td>失敗不退階，僅消耗道具與天幣，聖物等級<span class="j">不會下降</span></td></tr>
+              <tr><td><span class="g">共存擴充</span></td><td>使用<span class="j">聖物擴充石</span>後，聖物可與魔法娃娃同時裝備於欄位</td></tr>
+              <tr><td><span class="g">屬性繼承</span></td><td>升階後低階加成由高階完整取代，帳號內所有角色<span class="j">同步共享</span>最新屬性</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tip tip--gold" style="margin-bottom:0">
+          <div class="tip__ic">🔔</div>
+          <div class="tip__b">升階採機率判定，<b>階級越高成功率越低</b>。建議囤足成長藥劑與天幣後再一次性衝階，把握連續嘗試的節奏。</div>
+        </div>
+      </div>
+
+      <!-- 近戰系聖物 -->
+      <div class="h-line rv"><span class="h-line__t">近戰系聖物 · 甘地的圖騰</span></div>
+
+      <div class="ytable-wrap rv" style="margin-bottom:26px">
+        <table class="ytable">
+          <thead>
+            <tr>
+              <th>聖物名稱</th>
+              <th>屬性加成</th>
+              <th>特殊效果</th>
+              <th>成功率</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>甘地的圖騰</td>
+              <td>HP+10、經驗+5%</td>
+              <td>—</td>
+              <td>初始</td>
+            </tr>
+            <tr>
+              <td>平凡的聖物：食人妖精的棍棒</td>
+              <td>HP+20、經驗+10%</td>
+              <td>—</td>
+              <td><span class="j">25%</span></td>
+            </tr>
+            <tr>
+              <td>努力的聖物：暗黑騎士的單手劍</td>
+              <td>HP+40、經驗+15%</td>
+              <td>—</td>
+              <td><span class="j">15%</span></td>
+            </tr>
+            <tr>
+              <td><span class="j">聰明的聖物：歐吉王的斧頭</span></td>
+              <td>HP+60、經驗+20%</td>
+              <td>額外攻擊+1</td>
+              <td><span class="j">10%</span></td>
+            </tr>
+            <tr>
+              <td><span class="j">聰穎的聖物：史雷佛雙刀</span></td>
+              <td>HP+80、經驗+25%</td>
+              <td>額外攻擊+2、額外命中+1<br><span class="j">自動施放通暢與體魄</span></td>
+              <td><span class="g">6%</span></td>
+            </tr>
+            <tr>
+              <td><span class="g">發光的聖物：勞待碼依之劍</span></td>
+              <td>HP+120、經驗+35%</td>
+              <td>額外攻擊+3、額外命中+2<br><span class="j">自動施放通暢與體魄</span></td>
+              <td><span class="g">3%</span></td>
+            </tr>
+            <tr>
+              <td><span class="g">光彩照人的聖物：格蘭肯的現身</span></td>
+              <td><span class="g">HP+150、經驗+50%</span></td>
+              <td>額外攻擊+5、額外命中+3<br><span class="j">自動施放通暢與體魄</span></td>
+              <td><span class="g">1%</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 遠程系聖物 -->
+      <div class="h-line rv"><span class="h-line__t">遠程系聖物 · 阿吐巴的圖騰</span></div>
+
+      <div class="ytable-wrap rv" style="margin-bottom:26px">
+        <table class="ytable">
+          <thead>
+            <tr>
+              <th>聖物名稱</th>
+              <th>屬性加成</th>
+              <th>特殊效果</th>
+              <th>成功率</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>阿吐巴的圖騰</td>
+              <td>HP+10、經驗+5%</td>
+              <td>—</td>
+              <td>初始</td>
+            </tr>
+            <tr>
+              <td>平凡的聖物：黑暗妖精的弓</td>
+              <td>HP+20、經驗+10%</td>
+              <td>—</td>
+              <td><span class="j">25%</span></td>
+            </tr>
+            <tr>
+              <td>努力的聖物：達伊思諾手套</td>
+              <td>HP+40、經驗+15%</td>
+              <td>—</td>
+              <td><span class="j">15%</span></td>
+            </tr>
+            <tr>
+              <td><span class="j">聰明的聖物：安迪斯弩弓</span></td>
+              <td>HP+60、經驗+20%</td>
+              <td>遠距離額外攻擊+1</td>
+              <td><span class="j">10%</span></td>
+            </tr>
+            <tr>
+              <td><span class="j">聰穎的聖物：海露拜之弓</span></td>
+              <td>HP+80、經驗+25%</td>
+              <td>遠距攻擊+2、遠距命中+1<br><span class="j">自動施放通暢與體魄</span></td>
+              <td><span class="g">6%</span></td>
+            </tr>
+            <tr>
+              <td><span class="g">發光的聖物：赫發斯特斯</span></td>
+              <td>HP+120、經驗+35%</td>
+              <td>遠距攻擊+3、遠距命中+2<br><span class="j">自動施放通暢與體魄</span></td>
+              <td><span class="g">3%</span></td>
+            </tr>
+            <tr>
+              <td><span class="g">光彩照人的聖物：殷海薩的現身</span></td>
+              <td><span class="g">HP+150、經驗+50%</span></td>
+              <td>遠距攻擊+5、遠距命中+3<br><span class="j">自動施放通暢與體魄</span></td>
+              <td><span class="g">1%</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 法師系聖物 -->
+      <div class="h-line rv"><span class="h-line__t">法師系聖物 · 那魯加的圖騰</span></div>
+
+      <div class="ytable-wrap rv" style="margin-bottom:26px">
+        <table class="ytable">
+          <thead>
+            <tr>
+              <th>聖物名稱</th>
+              <th>屬性加成</th>
+              <th>特殊效果</th>
+              <th>成功率</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>那魯加的圖騰</td>
+              <td>HP+10、經驗+5%</td>
+              <td>—</td>
+              <td>初始</td>
+            </tr>
+            <tr>
+              <td>平凡的聖物：長者的魔杖</td>
+              <td>HP+20、經驗+10%</td>
+              <td>—</td>
+              <td><span class="j">25%</span></td>
+            </tr>
+            <tr>
+              <td>努力的聖物：巫婆的掃帚</td>
+              <td>HP+40、經驗+15%</td>
+              <td>—</td>
+              <td><span class="j">15%</span></td>
+            </tr>
+            <tr>
+              <td><span class="j">聰明的聖物：巴風特魔杖</span></td>
+              <td>HP+60、經驗+20%</td>
+              <td>魔法攻擊+1</td>
+              <td><span class="j">10%</span></td>
+            </tr>
+            <tr>
+              <td><span class="j">聰穎的聖物：冰之女王頭飾</span></td>
+              <td>HP+80、經驗+25%</td>
+              <td>魔法攻擊+1、額外命中+1<br><span class="j">自動施放通暢與體魄</span></td>
+              <td><span class="g">6%</span></td>
+            </tr>
+            <tr>
+              <td><span class="g">發光的聖物：吉倫的魔杖</span></td>
+              <td>HP+120、經驗+35%</td>
+              <td>魔法攻擊+2、額外命中+2<br><span class="j">自動施放通暢與體魄</span></td>
+              <td><span class="g">3%</span></td>
+            </tr>
+            <tr>
+              <td><span class="g">光彩照人的聖物：法老王的現身</span></td>
+              <td><span class="g">HP+150、經驗+50%</span></td>
+              <td>魔法攻擊+3、額外命中+3<br><span class="j">自動施放通暢與體魄</span></td>
+              <td><span class="g">1%</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 圖騰共享被動總表 -->
+      <div class="h-line rv"><span class="h-line__t">全帳號共享被動一覽</span></div>
+
+      <div class="ytable-wrap rv">
+        <table class="ytable">
+          <thead>
+            <tr>
+              <th>圖騰系列</th>
+              <th>共享 HP 上限</th>
+              <th>共享經驗加成</th>
+              <th>頂階專屬被動</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="g">近戰 · 甘地</span></td>
+              <td>+150</td>
+              <td>+50%</td>
+              <td>額外攻擊+5、額外命中+3、自動施放通暢與體魄</td>
+            </tr>
+            <tr>
+              <td><span class="g">遠程 · 阿吐巴</span></td>
+              <td>+150</td>
+              <td>+50%</td>
+              <td>遠距攻擊+5、遠距命中+3、自動施放通暢與體魄</td>
+            </tr>
+            <tr>
+              <td><span class="g">法師 · 那魯加</span></td>
+              <td>+150</td>
+              <td>+50%</td>
+              <td>魔法攻擊+3、額外命中+3、自動施放通暢與體魄</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tip tip--seal rv">
+        <div class="tip__ic">⚔</div>
+        <div class="tip__b">三系聖物<b>可同時養成</b>：不同角色切換時，只需召喚對應職業的圖騰即刻套用共享被動。建議依主力職業優先衝頂，再回頭補齊其餘兩系，讓全帳號戰力一次到位。</div>
+      </div>
+
+      <div class="tip tip--gold rv" style="margin-bottom:0">
+        <div class="tip__ic">🔔</div>
+        <div class="tip__b">想第一時間掌握聖物改版與掉落調整？加入官方 LINE 社群，<b>版本更新與活動雙倍掉落</b>將於當日同步推播。</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ 頁尾 ═══════════ -->
+  <footer class="foot">
+    <div class="foot__top">
+      <div class="foot__brand"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="n">曜魂天堂</span></div>
+      <nav class="foot__links">
+        <a href="features-overview.html">特色介紹</a><span class="foot__sep">·</span>
+        <a href="rules.html">遊戲規章</a><span class="foot__sep">·</span>
+        <a href="sponsor.html">贊助須知</a><span class="foot__sep">·</span>
+        <a href="disclaimer.html">免責聲明</a><span class="foot__sep">·</span>
+        <a href="contact.html">聯絡我們</a>
+      </nav>
+    </div>
+    <div class="foot__copy"><p>© 2026 曜魂天堂 · 本遊戲限 18 歲以上玩家參與 · 遊戲有成癮性，請節制遊玩 · 本站與 NC Soft 官方無任何關聯</p></div>
+    <div class="foot__credit">
+      <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" style="color:#b6892a;font-size:12px;letter-spacing:1.2px;font-weight:600;text-shadow:0 0 10px rgba(201,169,110,0.36);text-decoration:none;">阿柴美工 LINE @323rffot 美工找我~</a>
+      <a href="https://www.gamex123.com/lineage.html" target="_blank" rel="noopener" style="display:inline-flex;opacity:0.82;transition:opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.82'">
+        <img src="../assets/images/private-server-123.gif" alt="私服123" style="display:block;width:78px;height:auto;" loading="lazy">
+      </a>
+    </div>
+  </footer>
+
+  </div><!-- /.page -->
+
+  <!-- ═══════════ 浮動側欄 ═══════════ -->
+  <div class="float">
+    <a href="sponsor.html" title="贊助"><svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61z"/></svg>贊助</a>
+    <a href="download.html" title="下載"><svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>下載</a>
+    <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" class="line" title="社群"><svg viewBox="0 0 24 24"><path d="M24 10.3C24 4.94 18.62.57 12 .57S0 4.94 0 10.3c0 4.81 4.27 8.84 10.04 9.61.39.08.92.26 1.06.59.12.3.08.77.04 1.08l-.17 1.02c-.04.3-.24 1.19 1.05.64 1.29-.54 6.92-4.08 9.44-6.97C23.18 14.4 24 12.46 24 10.3M7.75 13.5H5.36a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.35 0 .63.28.63.63v4.13h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63m2.47-.63c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m5.74 0c0 .27-.17.51-.43.6a.65.65 0 01-.71-.22l-2.44-3.32v2.94c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.27.17-.51.43-.6a.62.62 0 01.7.22l2.46 3.33V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m3.86-2.38c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-1.76v1.12h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-2.39a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63h2.39c.35 0 .63.28.63.63 0 .35-.28.63-.63.63h-1.76v1.13h1.76"/></svg>社群</a>
+  </div>
+
+  <script>
+  (function(){var b=document.getElementById('burger'),m=document.getElementById('mnav');if(b&&m)b.addEventListener('click',function(){m.classList.toggle('open');});})();
+  (function(){var els=document.querySelectorAll('.rv');if(!els.length||!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});els.forEach(function(e){io.observe(e);});})();
+  </script>
+</body>
+</html>

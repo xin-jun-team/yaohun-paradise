@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="曜魂天堂 — 職業之力：各職業專屬被動強化與逐階效果總覽">
+<title>職業之力 — 曜魂天堂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../assets/images/logo-circle.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════ 左側章回索引書脊 ═══════════ -->
+  <aside class="rail rail--sub">
+    <a href="../index.html" class="rail__emblem"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"></a>
+    <a href="../index.html"><span class="n">序</span>開卷</a>
+    <a href="news.html"><span class="n">壹</span>公告</a>
+    <a href="events.html"><span class="n">貳</span>活動</a>
+    <a href="features-overview.html"><span class="n">參</span>特色</a>
+    <a href="download.html"><span class="n">肆</span>下載</a>
+    <span class="rail__line">曜耀臨世</span>
+  </aside>
+
+  <div class="page">
+
+  <!-- ═══════════ 頂部選單 ═══════════ -->
+  <nav class="top">
+    <div class="top__in">
+      <a href="../index.html" class="top__logo"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="top__name">曜魂天堂</span></a>
+      <div class="top__menu">
+        <a href="download.html" class="prime">遊戲下載</a>
+        <a href="news.html">最新公告</a>
+        <a href="events.html">活動資訊</a>
+        <a href="features-overview.html">遊戲特色</a>
+        <a href="version.html">版本設定</a>
+        <a href="items-overview.html">裝備道具</a>
+        <a href="boss-guide.html">BOSS介紹</a>
+        <a href="sponsor.html">贊助說明</a>
+      </div>
+      <button class="top__burger" id="burger" aria-label="選單"><span></span><span></span><span></span></button>
+    </div>
+    <div class="top__mobile" id="mnav">
+      <a href="download.html">遊戲下載</a><a href="news.html">最新公告</a><a href="events.html">活動資訊</a>
+      <a href="features-overview.html">遊戲特色</a><a href="version.html">版本設定</a><a href="items-overview.html">裝備道具</a>
+      <a href="boss-guide.html">BOSS介紹</a><a href="sponsor.html">贊助說明</a><a href="promote.html">推文推廣</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════ 卷首 ═══════════ -->
+  <header class="phero">
+    <div class="phero__bg"></div>
+    <div class="phero__veil"></div>
+    <div class="phero__in">
+      <div class="phero__num">職</div>
+      <div>
+        <div class="phero__eyebrow">CLASS POWER · 職業之力</div>
+        <h1 class="phero__h1">職業<em>之力</em></h1>
+        <p class="phero__sub">每個職業皆蘊藏專屬的被動之力，逐階升華後大幅提升核心戰力。滿級職業之力，往往是決定後期勝負的關鍵一擊。</p>
+      </div>
+    </div>
+    <div class="phero__crumb"><a href="../index.html">首頁</a> ／ <a href="items-overview.html">裝備道具</a> ／ 職業之力</div>
+  </header>
+
+  <!-- ═══════════ 職業之力內文 ═══════════ -->
+  <section class="sec sec--a">
+    <div class="wrap">
+
+      <!-- 前言 -->
+      <div class="card rv" style="margin-bottom:22px">
+        <div class="card__t"><span class="seal">職</span>何謂職業之力</div>
+        <p class="prose" style="margin:0 0 12px">每個職業都擁有專屬於自己的強大「職業之力」，賦予大量的屬性加成與獨門能力。前往主城 NPC 製作並逐步升階，隨階段提升層層強化——<b style="color:var(--gold-hi)">滿級的職業之力，更是後期戰力的勝負關鍵</b>，切不可忽視。</p>
+        <div class="tip tip--gold" style="margin:0">
+          <div class="tip__ic">⚗</div>
+          <div class="tip__b">升階採<b>成功率機制</b>：初始 100%，越接近滿階成功率越低（MAX 階僅 40%）。升階失敗不會降階，僅消耗一次材料，可反覆挑戰直至成功。</div>
+        </div>
+      </div>
+
+      <!-- 總覽表 -->
+      <div class="h-line rv"><span class="h-line__t">◈ 八職之力總覽</span></div>
+      <div class="ytable-wrap rv" style="margin-bottom:16px">
+        <table class="ytable">
+          <thead><tr><th>職業</th><th>專屬之力</th><th>核心強化方向</th></tr></thead>
+          <tbody>
+            <tr><td><span class="g">君主</span></td><td>殷海薩之力</td><td>受擊治癒、PVP 減傷、近距攻擊，生存與統御兼備</td></tr>
+            <tr><td><span class="g">騎士</span></td><td>屠龍者之力</td><td>暈眩命中、魔法抵抗、最大 HP、傷害免疫，鐵壁前排</td></tr>
+            <tr><td><span class="g">妖精</span></td><td>席琳之力</td><td>三連箭傷害、降低對手迴避、近距攻擊，全能射手</td></tr>
+            <tr><td><span class="g">法師</span></td><td>艾歐丁之力</td><td>魅力、火焰魔法傷害、MP 回復，毀滅級魔法輸出</td></tr>
+            <tr><td><span class="g">黑暗妖精</span></td><td>格蘭肯之力</td><td>爆擊率、爆擊倍率、攻擊命中，致命暴擊刺客</td></tr>
+            <tr><td><span class="g">龍騎士</span></td><td>安塔瑞斯之力</td><td>龍息傷害、物理攻擊、最大 HP、負重，重裝突擊</td></tr>
+            <tr><td><span class="g">幻術師</span></td><td>帕格利歐之力</td><td>魔法暴擊、水風魔法傷害、施法冷卻，控場術士</td></tr>
+            <tr><td><span class="g">戰士</span></td><td>卡姆恩之力</td><td>連擊傷害、攻擊速度、爆擊率、命中，狂猛近戰</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tip rv" style="margin-top:0">
+        <div class="tip__ic">📜</div>
+        <div class="tip__b">下方逐職列出<b>初始 → MAX</b>各階段的升級成功率與屬性成長。<span class="chip chip--gold">金字</span>為該職核心成長數值，<span class="chip">綠字</span>為輔助屬性。</div>
+      </div>
+
+      <!-- 君主 -->
+      <div class="h-line rv"><span class="h-line__t">壹 · 君主 — 殷海薩之力</span></div>
+      <p class="prose rv" style="margin:0 0 10px">遭受傷害時機率觸發治癒，並提供 PVP 減傷與近距攻擊加成。<b style="color:var(--gold-hi)">滿級單次回復 350–400</b>，生存力大幅強化，是團隊統帥不倒的核心。</p>
+      <div class="ytable-wrap rv" style="margin-bottom:20px">
+        <table class="ytable">
+          <thead><tr><th>階段</th><th>升級成功率</th><th>治癒機率</th><th>治癒量</th><th>PVP 減傷</th><th>近距攻擊</th></tr></thead>
+          <tbody>
+            <tr><td>初始</td><td><span class="j">100%</span></td><td>4%</td><td>50–100</td><td>+1</td><td>+1</td></tr>
+            <tr><td>LV.1</td><td><span class="j">90%</span></td><td>5%</td><td>100–150</td><td>+1</td><td>+1</td></tr>
+            <tr><td>LV.2</td><td><span class="j">80%</span></td><td>6%</td><td>150–200</td><td>+2</td><td>+3</td></tr>
+            <tr><td>LV.3</td><td><span class="j">70%</span></td><td>7%</td><td>200–250</td><td>+2</td><td>+3</td></tr>
+            <tr><td>LV.4</td><td><span class="j">50%</span></td><td>8%</td><td>250–300</td><td>+3</td><td>+5</td></tr>
+            <tr><td>LV.5</td><td><span class="j">50%</span></td><td>9%</td><td>300–350</td><td>+3</td><td>+5</td></tr>
+            <tr><td><span class="g">MAX</span></td><td><span class="j">40%</span></td><td><span class="g">10%</span></td><td><span class="g">350–400</span></td><td><span class="g">+5</span></td><td><span class="g">+8</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 騎士 -->
+      <div class="h-line rv"><span class="h-line__t">貳 · 騎士 — 屠龍者之力</span></div>
+      <p class="prose rv" style="margin:0 0 10px">強化暈眩命中、魔法抵抗、最大 HP 與傷害免疫。<b style="color:var(--gold-hi)">滿級 HP +1,000、魔抵 +15</b>，成為難以撼動的鐵壁前排。</p>
+      <div class="ytable-wrap rv" style="margin-bottom:20px">
+        <table class="ytable">
+          <thead><tr><th>階段</th><th>升級成功率</th><th>暈眩命中</th><th>魔法抵抗</th><th>最大 HP</th><th>傷害免疫</th></tr></thead>
+          <tbody>
+            <tr><td>初始</td><td><span class="j">100%</span></td><td>+1%</td><td>+2</td><td>+100</td><td>+1</td></tr>
+            <tr><td>LV.1</td><td><span class="j">90%</span></td><td>+2%</td><td>+4</td><td>+200</td><td>+2</td></tr>
+            <tr><td>LV.2</td><td><span class="j">80%</span></td><td>+3%</td><td>+6</td><td>+300</td><td>+3</td></tr>
+            <tr><td>LV.3</td><td><span class="j">70%</span></td><td>+5%</td><td>+8</td><td>+400</td><td>+4</td></tr>
+            <tr><td>LV.4</td><td><span class="j">50%</span></td><td>+7%</td><td>+10</td><td>+500</td><td>+5</td></tr>
+            <tr><td>LV.5</td><td><span class="j">50%</span></td><td>+9%</td><td>+12</td><td>+800</td><td>+6</td></tr>
+            <tr><td><span class="g">MAX</span></td><td><span class="j">40%</span></td><td><span class="g">+12%</span></td><td><span class="g">+15</span></td><td><span class="g">+1,000</span></td><td><span class="g">+8</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 妖精 -->
+      <div class="h-line rv"><span class="h-line__t">參 · 妖精 — 席琳之力</span></div>
+      <p class="prose rv" style="margin:0 0 10px">強化三連箭傷害與近距攻擊，並降低對手迴避率。<b style="color:var(--gold-hi)">滿級三連箭 +20、近距 +15</b>，全面提升輸出效率。</p>
+      <div class="ytable-wrap rv" style="margin-bottom:20px">
+        <table class="ytable">
+          <thead><tr><th>階段</th><th>升級成功率</th><th>三連箭傷害</th><th>迴避降低</th><th>近距攻擊</th></tr></thead>
+          <tbody>
+            <tr><td>初始</td><td><span class="j">100%</span></td><td>+5</td><td>+1</td><td>+1</td></tr>
+            <tr><td>LV.1</td><td><span class="j">90%</span></td><td>+8</td><td>+2</td><td>+2</td></tr>
+            <tr><td>LV.2</td><td><span class="j">80%</span></td><td>+10</td><td>+3</td><td>+2</td></tr>
+            <tr><td>LV.3</td><td><span class="j">70%</span></td><td>+12</td><td>+4</td><td>+2</td></tr>
+            <tr><td>LV.4</td><td><span class="j">50%</span></td><td>+14</td><td>+5</td><td>+10</td></tr>
+            <tr><td>LV.5</td><td><span class="j">50%</span></td><td>+16</td><td>+6</td><td>+10</td></tr>
+            <tr><td><span class="g">MAX</span></td><td><span class="j">40%</span></td><td><span class="g">+20</span></td><td><span class="g">+7</span></td><td><span class="g">+15</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 法師 -->
+      <div class="h-line rv"><span class="h-line__t">肆 · 法師 — 艾歐丁之力</span></div>
+      <p class="prose rv" style="margin:0 0 10px">大幅提升魅力、火焰魔法傷害及 MP 回復。<b style="color:var(--gold-hi)">滿級魅力 +36、火焰傷害 +100</b>，打造毀滅級魔法輸出。</p>
+      <div class="ytable-wrap rv" style="margin-bottom:20px">
+        <table class="ytable">
+          <thead><tr><th>階段</th><th>升級成功率</th><th>魅力加成</th><th>火焰魔法傷害</th><th>MP 回復</th></tr></thead>
+          <tbody>
+            <tr><td>初始</td><td><span class="j">100%</span></td><td>+9</td><td>+8</td><td>+2</td></tr>
+            <tr><td>LV.1</td><td><span class="j">90%</span></td><td>+12</td><td>+15</td><td>+2</td></tr>
+            <tr><td>LV.2</td><td><span class="j">80%</span></td><td>+12</td><td>+30</td><td>+4</td></tr>
+            <tr><td>LV.3</td><td><span class="j">70%</span></td><td>+18</td><td>+45</td><td>+4</td></tr>
+            <tr><td>LV.4</td><td><span class="j">50%</span></td><td>+21</td><td>+60</td><td>+6</td></tr>
+            <tr><td>LV.5</td><td><span class="j">50%</span></td><td>+25</td><td>+75</td><td>+6</td></tr>
+            <tr><td><span class="g">MAX</span></td><td><span class="j">40%</span></td><td><span class="g">+36</span></td><td><span class="g">+100</span></td><td><span class="g">+10</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 黑暗妖精 -->
+      <div class="h-line rv"><span class="h-line__t">伍 · 黑暗妖精 — 格蘭肯之力</span></div>
+      <p class="prose rv" style="margin:0 0 10px">提升近戰爆擊率、爆擊倍率與攻擊命中。<b style="color:var(--gold-hi)">滿級爆擊率 +8%、倍率 1.15×</b>，每一次暴擊都是致命打擊。</p>
+      <div class="ytable-wrap rv" style="margin-bottom:20px">
+        <table class="ytable">
+          <thead><tr><th>階段</th><th>升級成功率</th><th>爆擊率</th><th>爆擊倍率</th><th>攻擊命中</th></tr></thead>
+          <tbody>
+            <tr><td>初始</td><td><span class="j">100%</span></td><td>+1%</td><td>1.02×</td><td>+1</td></tr>
+            <tr><td>LV.1</td><td><span class="j">90%</span></td><td>+2%</td><td>1.04×</td><td>+1</td></tr>
+            <tr><td>LV.2</td><td><span class="j">80%</span></td><td>+3%</td><td>1.06×</td><td>+2</td></tr>
+            <tr><td>LV.3</td><td><span class="j">70%</span></td><td>+4%</td><td>1.08×</td><td>+2</td></tr>
+            <tr><td>LV.4</td><td><span class="j">50%</span></td><td>+5%</td><td>1.10×</td><td>+3</td></tr>
+            <tr><td>LV.5</td><td><span class="j">50%</span></td><td>+6%</td><td>1.12×</td><td>+3</td></tr>
+            <tr><td><span class="g">MAX</span></td><td><span class="j">40%</span></td><td><span class="g">+8%</span></td><td><span class="g">1.15×</span></td><td><span class="g">+5</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 龍騎士 -->
+      <div class="h-line rv"><span class="h-line__t">陸 · 龍騎士 — 安塔瑞斯之力</span></div>
+      <p class="prose rv" style="margin:0 0 10px">承襲古龍之威，強化龍息傷害、物理攻擊、最大 HP 與負重。<b style="color:var(--gold-hi)">滿級龍息 +40、物攻 +10</b>，重裝突擊撕裂陣線。</p>
+      <div class="ytable-wrap rv" style="margin-bottom:20px">
+        <table class="ytable">
+          <thead><tr><th>階段</th><th>升級成功率</th><th>龍息傷害</th><th>物理攻擊</th><th>最大 HP</th><th>負重上限</th></tr></thead>
+          <tbody>
+            <tr><td>初始</td><td><span class="j">100%</span></td><td>+8</td><td>+1</td><td>+100</td><td>+300</td></tr>
+            <tr><td>LV.1</td><td><span class="j">90%</span></td><td>+13</td><td>+2</td><td>+200</td><td>+600</td></tr>
+            <tr><td>LV.2</td><td><span class="j">80%</span></td><td>+18</td><td>+3</td><td>+300</td><td>+900</td></tr>
+            <tr><td>LV.3</td><td><span class="j">70%</span></td><td>+24</td><td>+5</td><td>+400</td><td>+1,200</td></tr>
+            <tr><td>LV.4</td><td><span class="j">50%</span></td><td>+30</td><td>+6</td><td>+550</td><td>+1,500</td></tr>
+            <tr><td>LV.5</td><td><span class="j">50%</span></td><td>+35</td><td>+8</td><td>+750</td><td>+1,800</td></tr>
+            <tr><td><span class="g">MAX</span></td><td><span class="j">40%</span></td><td><span class="g">+40</span></td><td><span class="g">+10</span></td><td><span class="g">+1,000</span></td><td><span class="g">+2,400</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 幻術師 -->
+      <div class="h-line rv"><span class="h-line__t">柒 · 幻術師 — 帕格利歐之力</span></div>
+      <p class="prose rv" style="margin:0 0 10px">操縱水與風之奧義，提升魔法暴擊、水風魔法傷害並縮短施法冷卻。<b style="color:var(--gold-hi)">滿級魔暴 +8%、施法冷卻 −12%</b>，成為戰場控場核心。</p>
+      <div class="ytable-wrap rv" style="margin-bottom:20px">
+        <table class="ytable">
+          <thead><tr><th>階段</th><th>升級成功率</th><th>魔法暴擊</th><th>水風魔法傷害</th><th>施法冷卻</th><th>MR 抵抗</th></tr></thead>
+          <tbody>
+            <tr><td>初始</td><td><span class="j">100%</span></td><td>+1%</td><td>+8</td><td>−1%</td><td>+2</td></tr>
+            <tr><td>LV.1</td><td><span class="j">90%</span></td><td>+2%</td><td>+16</td><td>−2%</td><td>+4</td></tr>
+            <tr><td>LV.2</td><td><span class="j">80%</span></td><td>+3%</td><td>+28</td><td>−4%</td><td>+6</td></tr>
+            <tr><td>LV.3</td><td><span class="j">70%</span></td><td>+4%</td><td>+42</td><td>−6%</td><td>+8</td></tr>
+            <tr><td>LV.4</td><td><span class="j">50%</span></td><td>+5%</td><td>+58</td><td>−8%</td><td>+10</td></tr>
+            <tr><td>LV.5</td><td><span class="j">50%</span></td><td>+6%</td><td>+72</td><td>−10%</td><td>+12</td></tr>
+            <tr><td><span class="g">MAX</span></td><td><span class="j">40%</span></td><td><span class="g">+8%</span></td><td><span class="g">+95</span></td><td><span class="g">−12%</span></td><td><span class="g">+15</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 戰士 -->
+      <div class="h-line rv"><span class="h-line__t">捌 · 戰士 — 卡姆恩之力</span></div>
+      <p class="prose rv" style="margin:0 0 10px">以狂猛連擊壓制敵陣，提升連擊傷害、攻擊速度、爆擊率與命中。<b style="color:var(--gold-hi)">滿級連擊 +22、攻速 +5</b>，近戰輸出無人能擋。</p>
+      <div class="ytable-wrap rv" style="margin-bottom:20px">
+        <table class="ytable">
+          <thead><tr><th>階段</th><th>升級成功率</th><th>連擊傷害</th><th>攻擊速度</th><th>爆擊率</th><th>攻擊命中</th></tr></thead>
+          <tbody>
+            <tr><td>初始</td><td><span class="j">100%</span></td><td>+5</td><td>+1</td><td>+1%</td><td>+1</td></tr>
+            <tr><td>LV.1</td><td><span class="j">90%</span></td><td>+8</td><td>+1</td><td>+2%</td><td>+1</td></tr>
+            <tr><td>LV.2</td><td><span class="j">80%</span></td><td>+11</td><td>+2</td><td>+3%</td><td>+2</td></tr>
+            <tr><td>LV.3</td><td><span class="j">70%</span></td><td>+14</td><td>+2</td><td>+4%</td><td>+3</td></tr>
+            <tr><td>LV.4</td><td><span class="j">50%</span></td><td>+17</td><td>+3</td><td>+5%</td><td>+4</td></tr>
+            <tr><td>LV.5</td><td><span class="j">50%</span></td><td>+19</td><td>+4</td><td>+6%</td><td>+5</td></tr>
+            <tr><td><span class="g">MAX</span></td><td><span class="j">40%</span></td><td><span class="g">+22</span></td><td><span class="g">+5</span></td><td><span class="g">+8%</span></td><td><span class="g">+7</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 升階要點 -->
+      <div class="h-line rv"><span class="h-line__t">◈ 升階三大要點</span></div>
+      <div class="grid-3 rv">
+        <div class="card">
+          <div class="card__t"><span class="seal">壹</span>製作起點</div>
+          <ul class="ylist" style="margin:0">
+            <li>前往<b>主城製作 NPC</b> 兌換職業之力，一名角色僅能持有自身職業之力。</li>
+            <li>初始階段成功率 <b>100%</b>，可穩定入手基礎版本。</li>
+            <li>製作材料公告於<b>版本設定</b>頁，開服後同步更新。</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card__t"><span class="seal">貳</span>逐階升華</div>
+          <ul class="ylist" style="margin:0">
+            <li>每階皆需消耗指定材料，<b>成功率隨階段遞減</b>。</li>
+            <li>升階失敗<b>不降階、不損毀</b>，僅耗一次材料。</li>
+            <li>建議備足材料一次衝到 <b>MAX</b>，避免戰力斷層。</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card__t"><span class="seal">參</span>戰力關鍵</div>
+          <ul class="ylist" style="margin:0">
+            <li>滿級加成往往是<b>後期 PVP 勝負手</b>，不可輕忽。</li>
+            <li>與裝備、寵物、變身<b>屬性疊加</b>，收益加乘。</li>
+            <li>優先強化<b>核心輸出／生存</b>屬性，再補輔助。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tip tip--seal rv" style="margin-bottom:0">
+        <div class="tip__ic">⚔</div>
+        <div class="tip__b">職業之力為<b>後期核心養成</b>之一。想第一時間掌握各職材料與版本調整，請鎖定<b>最新公告</b>與官方社群，開服當日同步釋出完整數據。</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ 頁尾 ═══════════ -->
+  <footer class="foot">
+    <div class="foot__top">
+      <div class="foot__brand"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="n">曜魂天堂</span></div>
+      <nav class="foot__links">
+        <a href="features-overview.html">特色介紹</a><span class="foot__sep">·</span>
+        <a href="rules.html">遊戲規章</a><span class="foot__sep">·</span>
+        <a href="sponsor.html">贊助須知</a><span class="foot__sep">·</span>
+        <a href="disclaimer.html">免責聲明</a><span class="foot__sep">·</span>
+        <a href="contact.html">聯絡我們</a>
+      </nav>
+    </div>
+    <div class="foot__copy"><p>© 2026 曜魂天堂 · 本遊戲限 18 歲以上玩家參與 · 遊戲有成癮性，請節制遊玩 · 本站與 NC Soft 官方無任何關聯</p></div>
+    <div class="foot__credit">
+      <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" style="color:#b6892a;font-size:12px;letter-spacing:1.2px;font-weight:600;text-shadow:0 0 10px rgba(201,169,110,0.36);text-decoration:none;">阿柴美工 LINE @323rffot 美工找我~</a>
+      <a href="https://www.gamex123.com/lineage.html" target="_blank" rel="noopener" style="display:inline-flex;opacity:0.82;transition:opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.82'">
+        <img src="../assets/images/private-server-123.gif" alt="私服123" style="display:block;width:78px;height:auto;" loading="lazy">
+      </a>
+    </div>
+  </footer>
+
+  </div><!-- /.page -->
+
+  <!-- ═══════════ 浮動側欄 ═══════════ -->
+  <div class="float">
+    <a href="sponsor.html" title="贊助"><svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61z"/></svg>贊助</a>
+    <a href="download.html" title="下載"><svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>下載</a>
+    <a href="#" class="line" title="社群"><svg viewBox="0 0 24 24"><path d="M24 10.3C24 4.94 18.62.57 12 .57S0 4.94 0 10.3c0 4.81 4.27 8.84 10.04 9.61.39.08.92.26 1.06.59.12.3.08.77.04 1.08l-.17 1.02c-.04.3-.24 1.19 1.05.64 1.29-.54 6.92-4.08 9.44-6.97C23.18 14.4 24 12.46 24 10.3M7.75 13.5H5.36a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.35 0 .63.28.63.63v4.13h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63m2.47-.63c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m5.74 0c0 .27-.17.51-.43.6a.65.65 0 01-.71-.22l-2.44-3.32v2.94c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.27.17-.51.43-.6a.62.62 0 01.7.22l2.46 3.33V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m3.86-2.38c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-1.76v1.12h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-2.39a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63h2.39c.35 0 .63.28.63.63 0 .35-.28.63-.63.63h-1.76v1.13h1.76"/></svg>社群</a>
+  </div>
+
+  <script>
+  (function(){var b=document.getElementById('burger'),m=document.getElementById('mnav');if(b&&m)b.addEventListener('click',function(){m.classList.toggle('open');});})();
+  (function(){var els=document.querySelectorAll('.rv');if(!els.length||!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});els.forEach(function(e){io.observe(e);});})();
+  </script>
+</body>
+</html>
