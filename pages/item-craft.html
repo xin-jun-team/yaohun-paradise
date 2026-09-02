@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="曜魂天堂 — 裝備製作配方、裝備分解與強化機制">
+<title>裝備製作與強化 — 曜魂天堂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../assets/images/logo-circle.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════ 左側章回索引書脊 ═══════════ -->
+  <aside class="rail rail--sub">
+    <a href="../index.html" class="rail__emblem"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"></a>
+    <a href="../index.html"><span class="n">序</span>開卷</a>
+    <a href="news.html"><span class="n">壹</span>公告</a>
+    <a href="events.html"><span class="n">貳</span>活動</a>
+    <a href="features-overview.html"><span class="n">參</span>特色</a>
+    <a href="download.html"><span class="n">肆</span>下載</a>
+    <span class="rail__line">曜耀臨世</span>
+  </aside>
+
+  <div class="page">
+
+  <!-- ═══════════ 頂部選單 ═══════════ -->
+  <nav class="top">
+    <div class="top__in">
+      <a href="../index.html" class="top__logo"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="top__name">曜魂天堂</span></a>
+      <div class="top__menu">
+        <a href="download.html" class="prime">遊戲下載</a>
+        <a href="news.html">最新公告</a>
+        <a href="events.html">活動資訊</a>
+        <a href="features-overview.html">遊戲特色</a>
+        <a href="version.html">版本設定</a>
+        <a href="items-overview.html">裝備道具</a>
+        <a href="boss-guide.html">BOSS介紹</a>
+        <a href="sponsor.html">贊助說明</a>
+      </div>
+      <button class="top__burger" id="burger" aria-label="選單"><span></span><span></span><span></span></button>
+    </div>
+    <div class="top__mobile" id="mnav">
+      <a href="download.html">遊戲下載</a><a href="news.html">最新公告</a><a href="events.html">活動資訊</a>
+      <a href="features-overview.html">遊戲特色</a><a href="version.html">版本設定</a><a href="items-overview.html">裝備道具</a>
+      <a href="boss-guide.html">BOSS介紹</a><a href="sponsor.html">贊助說明</a><a href="promote.html">推文推廣</a>
+    </div>
+  </nav>
+
+    <!-- ═══════════ 卷首 ═══════════ -->
+  <header class="phero">
+    <div class="phero__bg"></div>
+    <div class="phero__veil"></div>
+    <div class="phero__in">
+      <div class="phero__num">製</div>
+      <div>
+        <div class="phero__eyebrow">CRAFT · 製作與強化</div>
+        <h1 class="phero__h1">裝備製作<em>與強化</em></h1>
+        <p class="phero__sub">武器、防具、飾品的合成製作配方，裝備分解取粉，以及防爆卷軸與祝福捲軸的強化機制，皆於此卷一併列載。</p>
+      </div>
+    </div>
+    <div class="phero__crumb"><a href="../index.html">首頁</a> ／ <a href="items-overview.html">裝備道具</a> ／ 裝備製作與強化</div>
+  </header>
+
+<!-- ═══════════ 製作與強化內文 ═══════════ -->
+  <section class="sec sec--a">
+    <div class="wrap">
+
+      <div class="h-line rv"><span class="h-line__t">⚒ 製作系統</span></div>
+
+      <div class="h-line rv" style="margin-top:8px"><span class="h-line__t">⚔ 武器製作</span></div>
+      <div class="ytable-wrap rv" style="margin-bottom:22px">
+        <table class="ytable">
+          <thead><tr><th style="width:16%">種類</th><th>所需材料</th></tr></thead>
+          <tbody>
+            <tr><td><span class="g">高級武器</span></td><td>高級秘笈×2 ＋ 100萬天幣 ＋ 武器粉末×20 ＋ +7 一般武器</td></tr>
+            <tr><td><span class="g">稀有武器</span></td><td>稀有秘笈×2 ＋ 高級秘笈×4 ＋ 600萬天幣 ＋ 武器粉末×300 ＋ +8 高級武器</td></tr>
+            <tr><td><span class="g">英雄武器</span></td><td>英雄秘笈×2 ＋ 稀有秘笈×4 ＋ 高級秘笈×8 ＋ 3000萬天幣 ＋ 武器粉末×2000 ＋ <span class="j">噬魂魔核×5</span> ＋ +8 稀有武器</td></tr>
+            <tr><td><span class="g">傳說武器</span></td><td>傳說秘笈×2 ＋ 英雄秘笈×4 ＋ 稀有秘笈×8 ＋ 1億天幣 ＋ 武器粉末×8000 ＋ <span class="j">噬魂魔核×20</span> ＋ +9 英雄武器</td></tr>
+            <tr><td><span class="g">神話武器</span></td><td>神話秘笈×2 ＋ 傳說秘笈×4 ＋ 英雄秘笈×8 ＋ 3億天幣 ＋ 武器粉末×25000 ＋ <span class="j">噬魂魔核×50</span> ＋ +9 傳說武器</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="h-line rv" style="margin-top:8px"><span class="h-line__t">🛡 防具製作</span></div>
+      <div class="ytable-wrap rv" style="margin-bottom:22px">
+        <table class="ytable">
+          <thead><tr><th style="width:16%">種類</th><th>所需材料</th></tr></thead>
+          <tbody>
+            <tr><td><span class="g">高級防具</span></td><td>高級秘笈×2 ＋ 10萬天幣 ＋ 防具粉末×10 ＋ +5 一般防具</td></tr>
+            <tr><td><span class="g">稀有防具</span></td><td>稀有秘笈×1 ＋ 高級秘笈×2 ＋ 60萬天幣 ＋ 防具粉末×100 ＋ +5 高級防具</td></tr>
+            <tr><td><span class="g">英雄防具</span></td><td>英雄秘笈×1 ＋ 稀有秘笈×2 ＋ 高級秘笈×4 ＋ 300萬天幣 ＋ 防具粉末×500 ＋ <span class="j">噬魂魔核×3</span> ＋ +5 稀有防具</td></tr>
+            <tr><td><span class="g">傳說防具</span></td><td>傳說秘笈×1 ＋ 英雄秘笈×2 ＋ 稀有秘笈×4 ＋ 1000萬天幣 ＋ 防具粉末×2500 ＋ <span class="j">噬魂魔核×10</span> ＋ +6 英雄防具</td></tr>
+            <tr><td><span class="g">神話防具</span></td><td>神話秘笈×1 ＋ 傳說秘笈×2 ＋ 英雄秘笈×4 ＋ 3000萬天幣 ＋ 防具粉末×7500 ＋ <span class="j">噬魂魔核×20</span> ＋ +7 傳說防具</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="h-line rv" style="margin-top:8px"><span class="h-line__t">💍 飾品製作</span></div>
+      <div class="ytable-wrap rv" style="margin-bottom:22px">
+        <table class="ytable">
+          <thead><tr><th style="width:16%">種類</th><th>所需材料</th></tr></thead>
+          <tbody>
+            <tr><td><span class="g">高級飾品</span></td><td>高級秘笈×2 ＋ 10萬天幣 ＋ 飾品粉末×20 ＋ 一般飾品</td></tr>
+            <tr><td><span class="g">稀有飾品</span></td><td>稀有秘笈×1 ＋ 高級飾品×2 ＋ 60萬天幣 ＋ 飾品粉末×200 ＋ 高級飾品</td></tr>
+            <tr><td><span class="g">英雄飾品</span></td><td>英雄秘笈×1 ＋ 稀有秘笈×2 ＋ 高級秘笈×4 ＋ 300萬天幣 ＋ 飾品粉末×1000 ＋ <span class="j">噬魂魔核×3</span> ＋ 稀有飾品</td></tr>
+            <tr><td><span class="g">傳說飾品</span></td><td>傳說秘笈×1 ＋ 英雄秘笈×2 ＋ 稀有秘笈×4 ＋ 1000萬天幣 ＋ 飾品粉末×5000 ＋ <span class="j">噬魂魔核×10</span> ＋ 英雄飾品</td></tr>
+            <tr><td><span class="g">神話飾品</span></td><td>神話秘笈×1 ＋ 傳說秘笈×2 ＋ 英雄飾品×4 ＋ 3000萬天幣 ＋ 飾品粉末×15000 ＋ <span class="j">噬魂魔核×20</span> ＋ 傳說飾品</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card rv">
+        <div class="card__t"><span class="seal">解</span>裝備分解系統</div>
+        <p class="prose" style="margin:0 0 10px">請尋找主城 NPC <b>「裝備分解師」</b>，可分解所有武器、裝備、飾品並獲取對應的各類粉末材料。</p>
+        <ul class="ylist">
+          <li>一般 <span class="g">5 個</span></li>
+          <li>高級 <span class="g">20 個</span></li>
+          <li>稀有 <span class="g">100 個</span></li>
+          <li>英雄 <span class="g">500 個</span></li>
+          <li>傳說 <span class="g">2,500 個</span></li>
+          <li>神話 <span class="g">7,500 個</span></li>
+        </ul>
+        <p class="prose" style="margin:10px 0 0;font-size:.82rem">※ 武器、防具、飾品分解所得粉末數量皆相同。</p>
+      </div>
+
+      <div class="h-line rv" style="margin-top:24px"><span class="h-line__t">⬆ 裝備強化說明</span></div>
+      <div class="tip tip--seal rv">
+        <div class="tip__ic">⚠</div>
+        <div class="tip__b"><b>重要操作順序：</b>防爆狀態使用後<b>無法覆蓋</b>，請務必先使用防爆卷軸，再使用強化卷軸，順序顛倒將導致防爆失效。</div>
+      </div>
+      <div class="grid-3 rv" style="margin-bottom:22px">
+        <div class="card"><div class="card__t"><span class="seal">詛</span>詛咒的防爆卷軸</div><p class="prose" style="margin:0">強化失敗時：裝備等級歸零（重置回 +0）。</p></div>
+        <div class="card"><div class="card__t"><span class="seal">般</span>一般的防爆卷軸</div><p class="prose" style="margin:0">強化失敗時：等級退一階（-1 降級）。</p></div>
+        <div class="card"><div class="card__t"><span class="seal">祝</span>祝福的防爆卷軸</div><p class="prose" style="margin:0">強化失敗時：維持不變，等級無損失。</p></div>
+      </div>
+
+      <div class="h-line rv"><span class="h-line__t">✨ 祝福捲軸強化跳階說明</span></div>
+      <div class="tip rv">
+        <div class="tip__ic">💡</div>
+        <div class="tip__b">使用<b>祝福的強化卷軸</b>時，成功後可能一次跳升多個等級。各區間跳升範圍如下：</div>
+      </div>
+      <div class="ytable-wrap rv">
+        <table class="ytable">
+          <thead><tr><th>目前強化區間</th><th>可能跳升結果</th></tr></thead>
+          <tbody>
+            <tr><td>-2 ~ +4</td><td><span class="g">+0 / +1 / +2 / +3</span></td></tr>
+            <tr><td>+5</td><td><span class="g">+0 / +1 / +2</span></td></tr>
+            <tr><td>+6 以上</td><td><span class="g">+0 / +1</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="prose rv" style="text-align:right;margin-top:8px;font-size:.8rem">※ 強化數值以遊戲內實際顯示為準。</p>
+
+    </div>
+    </section>
+
+  <!-- ═══════════ 頁尾 ═══════════ -->
+  <footer class="foot">
+    <div class="foot__top">
+      <div class="foot__brand"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="n">曜魂天堂</span></div>
+      <nav class="foot__links">
+        <a href="features-overview.html">特色介紹</a><span class="foot__sep">·</span>
+        <a href="rules.html">遊戲規章</a><span class="foot__sep">·</span>
+        <a href="sponsor.html">贊助須知</a><span class="foot__sep">·</span>
+        <a href="disclaimer.html">免責聲明</a><span class="foot__sep">·</span>
+        <a href="contact.html">聯絡我們</a>
+      </nav>
+    </div>
+    <div class="foot__copy"><p>© 2026 曜魂天堂 · 本遊戲限 18 歲以上玩家參與 · 遊戲有成癮性，請節制遊玩 · 本站與 NC Soft 官方無任何關聯</p></div>
+    <div class="foot__credit">
+      <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" style="color:#b6892a;font-size:12px;letter-spacing:1.2px;font-weight:600;text-shadow:0 0 10px rgba(201,169,110,0.36);text-decoration:none;">阿柴美工 LINE @323rffot 美工找我~</a>
+      <a href="https://www.gamex123.com/lineage.html" target="_blank" rel="noopener" style="display:inline-flex;opacity:0.82;transition:opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.82'">
+        <img src="../assets/images/private-server-123.gif" alt="私服123" style="display:block;width:78px;height:auto;" loading="lazy">
+      </a>
+    </div>
+  </footer>
+
+  </div><!-- /.page -->
+
+  <!-- ═══════════ 浮動側欄 ═══════════ -->
+  <div class="float">
+    <a href="sponsor.html" title="贊助"><svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61z"/></svg>贊助</a>
+    <a href="download.html" title="下載"><svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>下載</a>
+    <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" class="line" title="社群"><svg viewBox="0 0 24 24"><path d="M24 10.3C24 4.94 18.62.57 12 .57S0 4.94 0 10.3c0 4.81 4.27 8.84 10.04 9.61.39.08.92.26 1.06.59.12.3.08.77.04 1.08l-.17 1.02c-.04.3-.24 1.19 1.05.64 1.29-.54 6.92-4.08 9.44-6.97C23.18 14.4 24 12.46 24 10.3M7.75 13.5H5.36a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.35 0 .63.28.63.63v4.13h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63m2.47-.63c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m5.74 0c0 .27-.17.51-.43.6a.65.65 0 01-.71-.22l-2.44-3.32v2.94c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.27.17-.51.43-.6a.62.62 0 01.7.22l2.46 3.33V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m3.86-2.38c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-1.76v1.12h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-2.39a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63h2.39c.35 0 .63.28.63.63 0 .35-.28.63-.63.63h-1.76v1.13h1.76"/></svg>社群</a>
+  </div>
+
+  <script>
+  (function(){var b=document.getElementById('burger'),m=document.getElementById('mnav');if(b&&m)b.addEventListener('click',function(){m.classList.toggle('open');});})();
+  (function(){var els=document.querySelectorAll('.rv');if(!els.length||!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});els.forEach(function(e){io.observe(e);});})();
+  </script>
+</body>
+</html>
