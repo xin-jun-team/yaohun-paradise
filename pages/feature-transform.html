@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="曜魂天堂 — 變身系統介紹，化身怪物形態大幅提升攻速與施法速度，稀有度速度加成、合成升階機率與傳說神話變身屬性一覽">
+<title>變身介紹 — 曜魂天堂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../assets/images/logo-circle.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════ 左側章回索引書脊 ═══════════ -->
+  <aside class="rail rail--sub">
+    <a href="../index.html" class="rail__emblem"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"></a>
+    <a href="../index.html"><span class="n">序</span>開卷</a>
+    <a href="news.html"><span class="n">壹</span>公告</a>
+    <a href="events.html"><span class="n">貳</span>活動</a>
+    <a href="features-overview.html"><span class="n">參</span>特色</a>
+    <a href="download.html"><span class="n">肆</span>下載</a>
+    <span class="rail__line">曜耀臨世</span>
+  </aside>
+
+  <div class="page">
+
+  <!-- ═══════════ 頂部選單 ═══════════ -->
+  <nav class="top">
+    <div class="top__in">
+      <a href="../index.html" class="top__logo"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="top__name">曜魂天堂</span></a>
+      <div class="top__menu">
+        <a href="download.html" class="prime">遊戲下載</a>
+        <a href="news.html">最新公告</a>
+        <a href="events.html">活動資訊</a>
+        <a href="features-overview.html">遊戲特色</a>
+        <a href="version.html">版本設定</a>
+        <a href="items-overview.html">裝備道具</a>
+        <a href="boss-guide.html">BOSS介紹</a>
+        <a href="sponsor.html">贊助說明</a>
+      </div>
+      <button class="top__burger" id="burger" aria-label="選單"><span></span><span></span><span></span></button>
+    </div>
+    <div class="top__mobile" id="mnav">
+      <a href="download.html">遊戲下載</a><a href="news.html">最新公告</a><a href="events.html">活動資訊</a>
+      <a href="features-overview.html">遊戲特色</a><a href="version.html">版本設定</a><a href="items-overview.html">裝備道具</a>
+      <a href="boss-guide.html">BOSS介紹</a><a href="sponsor.html">贊助說明</a><a href="promote.html">推文推廣</a>
+    </div>
+  </nav>
+
+    <!-- ═══════════ 卷首 ═══════════ -->
+  <header class="phero">
+    <div class="phero__bg"></div>
+    <div class="phero__veil"></div>
+    <div class="phero__in">
+      <div class="phero__num">變</div>
+      <div>
+        <div class="phero__eyebrow">TRANSFORM · 變身介紹</div>
+        <h1 class="phero__h1">變身<em>介紹</em></h1>
+        <p class="phero__sub">化身怪物形態，大幅提升攻速與詠速</p>
+      </div>
+    </div>
+    <div class="phero__crumb"><a href="../index.html">首頁</a> ／ <a href="features-overview.html">遊戲特色</a> ／ 變身介紹</div>
+  </header>
+
+  <!-- ═══════════ 變身內文 ═══════════ -->
+  <section class="sec sec--a">
+    <div class="wrap">
+
+      <!-- 系統說明 -->
+      <div class="h-line rv"><span class="h-line__t">🦇 系統說明</span></div>
+      <div class="tip tip--gold rv">
+        <div class="tip__ic">🦇</div>
+        <div class="tip__b">使用 <b>變身石</b> 可化身怪物形態，大幅提升角色的 <b>攻擊速度</b> 與 <b>施法速度</b>。<br>變身石的 <b>稀有度越高，速度加成越強</b>；<b>傳說</b>等級以上另附額外屬性加成，<b>神話</b>等級則擁有強力複合屬性，效益顯著高於一般變身。</div>
+      </div>
+
+      <!-- 稀有度效果 -->
+      <div class="h-line rv"><span class="h-line__t">✨ 稀有度效果</span></div>
+      <div class="ytable-wrap rv" style="margin-bottom:22px">
+        <table class="ytable">
+          <thead><tr><th>稀有度</th><th>速度加成</th><th>說明</th></tr></thead>
+          <tbody>
+            <tr><td>⚪ 一般</td><td><span class="g">攻速 / 施法 +33%</span></td><td>基礎變身</td></tr>
+            <tr><td>🟢 高級</td><td><span class="g">攻速 / 施法 +33%</span></td><td>進階變身</td></tr>
+            <tr><td>🔵 稀有</td><td><span class="g">攻速 / 施法 +33%</span></td><td>精良變身</td></tr>
+            <tr><td>🔴 英雄</td><td><span class="g">攻速 / 施法 +33%</span></td><td>強力變身</td></tr>
+            <tr><td>🟣 傳說</td><td>—</td><td>額外屬性加成請見下方</td></tr>
+            <tr><td>👑 神話</td><td>—</td><td>額外屬性加成請見下方</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 合成升階機率 -->
+      <div class="h-line rv"><span class="h-line__t">◈ 合成升階機率</span></div>
+      <div class="ytable-wrap rv" style="margin-bottom:22px">
+        <table class="ytable">
+          <thead><tr><th>升階方向</th><th>成功機率</th></tr></thead>
+          <tbody>
+            <tr><td>⚪ 一般 → 🟢 高級</td><td><span class="j">80%</span></td></tr>
+            <tr><td>🟢 高級 → 🔵 稀有</td><td><span class="j">50%</span></td></tr>
+            <tr><td>🔵 稀有 → 🔴 英雄</td><td><span class="j">35%</span></td></tr>
+            <tr><td>🔴 英雄 → 🟣 傳說</td><td><span class="j">18%</span></td></tr>
+            <tr><td>🟣 傳說 → 👑 神話</td><td style="color:var(--seal-hi);font-weight:700">尚未開放</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 一般變身 -->
+      <div class="h-line rv"><span class="h-line__t">⚪ 一般變身</span><span class="chip chip--gold">一般 · 43 種</span></div>
+      <div class="rv" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px">
+        <span class="chip chip--seal" style="flex-basis:100%">⚔ 近戰通用</span>
+        <span class="chip">強盜弓箭手</span>
+        <span class="chip">狼人/萊肯</span>
+        <span class="chip">小小鬼(粉紅)</span>
+        <span class="chip">奇異鸚鵡</span>
+        <span class="chip">食人妖精</span>
+        <span class="chip">思克巴</span>
+        <span class="chip">紙人</span>
+        <span class="chip">骷髏槍兵</span>
+        <span class="chip">妖魔</span>
+        <span class="chip">浣熊</span>
+        <span class="chip">骷髏弓箭手</span>
+        <span class="chip">哥布林</span>
+        <span class="chip">長者</span>
+        <span class="chip">歐姆民兵</span>
+        <span class="chip">妖魔巡守</span>
+        <span class="chip">食人妖精王</span>
+        <span class="chip">妖魔弓箭手</span>
+        <span class="chip">黑暗妖精法師</span>
+        <span class="chip">骷髏</span>
+        <span class="chip">曼波兔</span>
+        <span class="chip">雪人</span>
+        <span class="chip">果凍怪</span>
+        <span class="chip">橘子</span>
+        <span class="chip">安普長老</span>
+        <span class="chip">巨蟻</span>
+        <span class="chip">都達瑪拉妖魔</span>
+        <span class="chip">妖魔鬥士</span>
+        <span class="chip">追蹤者卡爾</span>
+        <span class="chip">海盜獵人雷歐</span>
+        <span class="chip">獵人戴伊</span>
+        <span class="chip">魔幻士兵</span>
+        <span class="chip">巨大兵蟻</span>
+        <span class="chip">地獄之花</span>
+        <span class="chip">安特</span>
+        <span class="chip">紅狼蛛</span>
+        <span class="chip">飛蛾人</span>
+        <span class="chip">飛蛾女王</span>
+        <span class="chip">瘋狗</span>
+        <span class="chip">樹精鹿</span>
+        <span class="chip">樹精戰士</span>
+        <span class="chip">錘鈴</span>
+        <span class="chip">鐵門騎士</span>
+      </div>
+
+      <!-- 高級變身 -->
+      <div class="h-line rv"><span class="h-line__t">🟢 高級變身</span><span class="chip chip--gold">ADVANCED · 41 種</span></div>
+      <div class="rv" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px">
+        <span class="chip chip--seal" style="flex-basis:100%">⚔ 近戰通用</span>
+        <span class="chip">狂暴槍騎</span>
+        <span class="chip">狂暴將軍</span>
+        <span class="chip">桓夢</span>
+        <span class="chip">墮落的賽尼斯</span>
+        <span class="chip">德雷克</span>
+        <span class="chip">達伊諾思打者</span>
+        <span class="chip">侏儒</span>
+        <span class="chip">火焰弓箭手</span>
+        <span class="chip">黑騎士</span>
+        <span class="chip">刺客首領</span>
+        <span class="chip">賞金獵人</span>
+        <span class="chip">魔法師</span>
+        <span class="chip">達伊諾思投手</span>
+        <span class="chip">海洋哈維</span>
+        <span class="chip">死亡騎士</span>
+        <span class="chip">奧爾汀</span>
+        <span class="chip">優卡</span>
+        <span class="chip">黑暗妖精</span>
+        <span class="chip">布雷哲</span>
+        <span class="chip">強盜頭目</span>
+        <span class="chip" style="flex-basis:100%">🏹 遠程可使用</span>
+        <span class="chip">沙蟲士兵</span>
+        <span class="chip">巨蟻女皇士兵</span>
+        <span class="chip chip--seal" style="flex-basis:100%">⚔ 近戰通用</span>
+        <span class="chip">大黃蜂殺手</span>
+        <span class="chip">石頭高崙</span>
+        <span class="chip">海馬守衛</span>
+        <span class="chip">強盜矮人</span>
+        <span class="chip">深海獵人</span>
+        <span class="chip">袋鼠拳擊手</span>
+        <span class="chip">超級螳螂</span>
+        <span class="chip">黑貓</span>
+        <span class="chip">溫迪</span>
+        <span class="chip">貓咪法師</span>
+        <span class="chip">貓咪戰士</span>
+        <span class="chip">貓咪騎士</span>
+        <span class="chip">薩提爾士兵</span>
+        <span class="chip">薩提爾戰士</span>
+        <span class="chip">薩蒂羅斯_魔術師</span>
+        <span class="chip">鼴鼠坦克</span>
+        <span class="chip">鼴鼠戰士</span>
+        <span class="chip">變色龍大師</span>
+        <span class="chip">鬣狗獵人</span>
+      </div>
+
+      <!-- 稀有變身 -->
+      <div class="h-line rv"><span class="h-line__t">🔵 稀有變身</span><span class="chip chip--gold">RARE · 110 種</span></div>
+      <div class="rv" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px">
+        <span class="chip chip--seal" style="flex-basis:100%">⚔ 近戰通用</span>
+        <span class="chip">惡魔</span>
+        <span class="chip">炎魔</span>
+        <span class="chip">歐吉王</span>
+        <span class="chip">夜巡</span>
+        <span class="chip">黑暗騎士</span>
+        <span class="chip">黑暗法師</span>
+        <span class="chip">黑暗巡守</span>
+        <span class="chip">黑暗刺客</span>
+        <span class="chip">黑暗火槍手</span>
+        <span class="chip">黑暗龍騎士</span>
+        <span class="chip">銀光騎士</span>
+        <span class="chip">銀光法師</span>
+        <span class="chip">銀光巡守</span>
+        <span class="chip">銀光刺客</span>
+        <span class="chip">銀光火槍手</span>
+        <span class="chip">銀光龍騎士</span>
+        <span class="chip">黃金騎士</span>
+        <span class="chip">黃金法師</span>
+        <span class="chip">黃金刺客</span>
+        <span class="chip">黃金巡守</span>
+        <span class="chip">黃金火槍手</span>
+        <span class="chip">黃金龍騎士</span>
+        <span class="chip">白金騎士</span>
+        <span class="chip">白金法師</span>
+        <span class="chip">白金巡守</span>
+        <span class="chip">白金刺客</span>
+        <span class="chip">白金火槍手</span>
+        <span class="chip">白金龍騎士</span>
+        <span class="chip">真死亡騎士</span>
+        <span class="chip">真黑暗妖精</span>
+        <span class="chip">巨大牛人</span>
+        <span class="chip">力卡溫</span>
+        <span class="chip">少女賽尼斯</span>
+        <span class="chip">黑法師</span>
+        <span class="chip">紅色妖魔</span>
+        <span class="chip">哈維</span>
+        <span class="chip">海音警衛</span>
+        <span class="chip">老虎</span>
+        <span class="chip">白色幼犬</span>
+        <span class="chip">暗殺軍王史雷佛</span>
+        <span class="chip">冥法軍王海露拜</span>
+        <span class="chip">魔獸軍王巴蘭卡</span>
+        <span class="chip">法令軍王蕾雅</span>
+        <span class="chip">長老凱伊納</span>
+        <span class="chip">長老拉米阿斯</span>
+        <span class="chip">長老伊戴亞</span>
+        <span class="chip">長老提亞麥斯</span>
+        <span class="chip">長老巴洛麥斯</span>
+        <span class="chip">長老安迪斯</span>
+        <span class="chip">長老比亞塔斯</span>
+        <span class="chip">黃金安迪斯</span>
+        <span class="chip">黃金史雷佛</span>
+        <span class="chip">黑暗妖精警衛</span>
+        <span class="chip">黑暗妖精盜賊</span>
+        <span class="chip">武獅</span>
+        <span class="chip">追蹤者凱伊</span>
+        <span class="chip">曼玻兔(紅蘿菠)</span>
+        <span class="chip">海盜獵人珍</span>
+        <span class="chip">獵人里德</span>
+        <span class="chip">菁英魔幻士兵</span>
+        <span class="chip">波若斯妖魔鬥士</span>
+        <span class="chip">波若斯妖魔法師</span>
+        <span class="chip">波若斯妖魔弓箭手</span>
+        <span class="chip">艾爾摩將軍</span>
+        <span class="chip">艾爾摩士兵</span>
+        <span class="chip">艾爾魔法師</span>
+        <span class="chip">聖地侏儒斧頭兵</span>
+        <span class="chip">聖地侏儒弓手</span>
+        <span class="chip">聖地侏儒槍兵</span>
+        <span class="chip">聖地侏儒劍士</span>
+        <span class="chip" style="flex-basis:100%">🏹 遠程可使用</span>
+        <span class="chip">巨蟻女皇隊長</span>
+        <span class="chip">沙蟲隊長</span>
+        <span class="chip">南瓜</span>
+        <span class="chip">紅魔法師</span>
+        <span class="chip">鬼靈</span>
+        <span class="chip">惡夢的稻草人</span>
+        <span class="chip">神聖魔法師</span>
+        <span class="chip">稻草人(藍)</span>
+        <span class="chip">魔女</span>
+        <span class="chip chip--seal" style="flex-basis:100%">⚔ 近戰通用</span>
+        <span class="chip">釣魚少年保羅</span>
+        <span class="chip">黑暗狂暴槍兵</span>
+        <span class="chip">銀光狂暴槍騎</span>
+        <span class="chip">黃金狂暴槍騎</span>
+        <span class="chip">白金狂暴槍騎</span>
+        <span class="chip">黑暗死神</span>
+        <span class="chip">銀光死神</span>
+        <span class="chip">黃金死神</span>
+        <span class="chip">白金死神</span>
+        <span class="chip">巴爾塔扎爾</span>
+        <span class="chip">梅奎爾</span>
+        <span class="chip">卡斯帕</span>
+        <span class="chip">塞瑪</span>
+        <span class="chip">亞丁騎士</span>
+        <span class="chip">亞丁狂暴槍騎</span>
+        <span class="chip">亞丁菁英騎士</span>
+        <span class="chip">海音騎士</span>
+        <span class="chip">海音狂暴槍騎</span>
+        <span class="chip">海音弓手</span>
+        <span class="chip">妖魔士兵</span>
+        <span class="chip">妖魔弓手</span>
+        <span class="chip">妖魔斧兵</span>
+        <span class="chip">妖魔騎兵</span>
+        <span class="chip">墓穴守護者騎士</span>
+        <span class="chip">墓穴守護者法師</span>
+        <span class="chip">墓穴守護者</span>
+        <span class="chip">韓服少年</span>
+        <span class="chip">韓服少女</span>
+        <span class="chip">歐瑞靈魂</span>
+        <span class="chip">歐瑞十字弓</span>
+        <span class="chip">方</span>
+        <span class="chip">火焰通</span>
+        <span class="chip">生日慶祝妖精</span>
+        <span class="chip">冰原狼人</span>
+        <span class="chip">邪惡蛋糕怪</span>
+        <span class="chip">邪惡麋鹿</span>
+        <span class="chip">佩利克</span>
+        <span class="chip">拉班</span>
+        <span class="chip">青蛙孟克</span>
+        <span class="chip">背叛的聖物</span>
+        <span class="chip">狼騎士</span>
+        <span class="chip">惡霸鯊魚</span>
+        <span class="chip">菲爾菲爾</span>
+        <span class="chip">愛爾芬(乞丐)</span>
+        <span class="chip">瑪依奴</span>
+        <span class="chip">舞獅(金)</span>
+        <span class="chip">墮落的修道士</span>
+        <span class="chip">犧牲的聖職者</span>
+        <span class="chip">鐵門騎士團長</span>
+        <span class="chip">懺悔的修女</span>
+      </div>
+
+      <!-- 英雄變身 -->
+      <div class="h-line rv"><span class="h-line__t">🔴 英雄變身</span><span class="chip chip--gold">HERO · 86 種</span></div>
+      <div class="rv" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px">
+        <span class="chip" style="flex-basis:100%">🏹 遠程可使用</span>
+        <span class="chip">天上騎士</span>
+        <span class="chip">格鬥家男</span>
+        <span class="chip">格鬥家女</span>
+        <span class="chip">潘朵拉</span>
+        <span class="chip">素還真</span>
+        <span class="chip">莉茲</span>
+        <span class="chip">伯爵安托里歐</span>
+        <span class="chip">師團長哈波</span>
+        <span class="chip">兔子少女</span>
+        <span class="chip">葉小釵</span>
+        <span class="chip">棄天帝</span>
+        <span class="chip">伊娃守護者</span>
+        <span class="chip">Doguri</span>
+        <span class="chip">女僕安娜</span>
+        <span class="chip">天上守護騎士</span>
+        <span class="chip">地獄傑克吳燈籠</span>
+        <span class="chip">挪威海怪</span>
+        <span class="chip chip--seal" style="flex-basis:100%">⚔ 近戰通用</span>
+        <span class="chip">巴列斯</span>
+        <span class="chip">反王肯恩</span>
+        <span class="chip">賽尼斯</span>
+        <span class="chip">依詩蒂</span>
+        <span class="chip">海露拜</span>
+        <span class="chip">絲莉安</span>
+        <span class="chip">甘特</span>
+        <span class="chip">特羅斯</span>
+        <span class="chip">死亡騎士(黃金)</span>
+        <span class="chip">覺醒炎魔</span>
+        <span class="chip">死亡騎士(焚焰)</span>
+        <span class="chip">克特</span>
+        <span class="chip">巴風特</span>
+        <span class="chip">宙斯</span>
+        <span class="chip">警衛(弓)</span>
+        <span class="chip">警衛(矛)</span>
+        <span class="chip">警衛(綠)(弓)</span>
+        <span class="chip">警衛(綠)(矛)</span>
+        <span class="chip">警衛(紅)(弓)</span>
+        <span class="chip">警衛(紅)(矛)</span>
+        <span class="chip">歐瑞(藍)</span>
+        <span class="chip">歐瑞(綠)</span>
+        <span class="chip">塞巴斯蒂安</span>
+        <span class="chip">布魯迪卡</span>
+        <span class="chip">丹特斯</span>
+        <span class="chip">真死亡騎士(紅)</span>
+        <span class="chip">真死亡騎士(藍)</span>
+        <span class="chip">荊棘公主艾薇</span>
+        <span class="chip">阿斯態爾</span>
+        <span class="chip">格立特(弓)</span>
+        <span class="chip">死神</span>
+        <span class="chip">依詩蒂(槍)</span>
+        <span class="chip">暗黑騎士莉爾利</span>
+        <span class="chip">艾依爾</span>
+        <span class="chip">狂暴將軍(紅)</span>
+        <span class="chip">狂暴將軍(藍)</span>
+        <span class="chip">刺客首領(紅)</span>
+        <span class="chip">黃金布雷哲</span>
+        <span class="chip">傑克吳燈籠(紅)</span>
+        <span class="chip">優秀騎士</span>
+        <span class="chip">優秀巡守</span>
+        <span class="chip">優秀法師</span>
+        <span class="chip">優秀狂暴槍騎</span>
+        <span class="chip">暗夜聖殿(金)</span>
+        <span class="chip">暗夜聖殿(紅)</span>
+        <span class="chip">暗夜聖殿(紫)</span>
+        <span class="chip">暗夜聖殿(藍)</span>
+        <span class="chip">巴士瑟</span>
+        <span class="chip">卡士伯</span>
+        <span class="chip">西瑪</span>
+        <span class="chip">馬庫爾</span>
+        <span class="chip">格鬥家(紅)</span>
+        <span class="chip">格鬥家(黃)</span>
+        <span class="chip">格鬥家(藍)</span>
+        <span class="chip">格鬥家(女)(藍)</span>
+        <span class="chip">秩序煉金術師</span>
+        <span class="chip">混沌煉金術師</span>
+        <span class="chip">沙哈守護者</span>
+        <span class="chip">帕格里奧守護者</span>
+        <span class="chip">馬普勒守護者</span>
+        <span class="chip">世拉</span>
+        <span class="chip">古代企鵝</span>
+        <span class="chip">巨大墓穴守護者</span>
+        <span class="chip">查曼卡</span>
+        <span class="chip">姬武者</span>
+        <span class="chip">家門守護者菲莉亞</span>
+        <span class="chip">豹人</span>
+        <span class="chip">雪之蜥蜴人</span>
+        <span class="chip">凱普莉夏</span>
+        <span class="chip">惡夢傑克吳燈籠</span>
+        <span class="chip">暗黑死亡騎士</span>
+        <span class="chip">潘</span>
+        <span class="chip">覺醒肯勞厄爾</span>
+        <span class="chip">覺醒愛爾芬</span>
+        <span class="chip">黑兔少女</span>
+        <span class="chip">蘿絲瑪莉</span>
+        <span class="chip">通緝犯庫傑</span>
+      </div>
+
+      <!-- 傳說變身 -->
+      <div class="h-line rv"><span class="h-line__t">🟣 傳說變身</span><span class="chip chip--gold">傳說 · 39 種 — 含額外屬性加成</span></div>
+      <div class="ytable-wrap rv" style="margin-bottom:22px">
+        <table class="ytable">
+          <thead><tr><th>變身名稱</th><th>額外屬性加成</th></tr></thead>
+          <tbody>
+            <tr><td colspan="2" style="text-align:center;font-weight:700;color:var(--jade-hi);background:var(--jade-deep);letter-spacing:.1em">🏹 遠程可使用</td></tr>
+            <tr><td>屠龍者</td><td>近/遠攻+2、減傷+1</td></tr>
+            <tr><td>公爵馬庫斯</td><td>近攻+3、暈命+3%、暈抗+3</td></tr>
+            <tr><td>軍團長艾克斯特</td><td>遠攻+3、暈抗+4、無視減傷+2</td></tr>
+            <tr><td>Mr斯摩格</td><td>遠攻+3、暈抗+4%、支撐+3%、PVP傷+3</td></tr>
+            <tr><td>昔日的騎士范德</td><td>暈抗+3%、恐怖抗+3%、暈命+4%</td></tr>
+            <tr><td>席琳的守衛</td><td>遠攻+3、暈命+3%、暈抗+4%</td></tr>
+            <tr><td>格蘭肯的逆麟</td><td>近攻+3、暈命+3%、暈抗+4%</td></tr>
+            <tr><td>殷海薩的影子</td><td>魔攻+3、暈抗+4%、支撐+2%</td></tr>
+            <tr><td>齊天大聖</td><td>減傷+2、近/遠傷+2、魔攻+1</td></tr>
+            <tr><td colspan="2" style="text-align:center;font-weight:700;color:var(--seal-hi);background:#3a1512;letter-spacing:.1em">⚔ 近戰通用</td></tr>
+            <tr><td>天鵝的勞安格林</td><td>近攻+3、防禦+1、暈命+3</td></tr>
+            <tr><td>黑暗之星宙斯</td><td>魔攻+1、回魔+3、昏迷耐性+4%</td></tr>
+            <tr><td>月之絲莉安</td><td>遠攻+3、遠爆+3%、昏迷耐性+4</td></tr>
+            <tr><td>鋼鐵阿頓</td><td>近攻+3、昏迷耐性+4、藥水+3%</td></tr>
+            <tr><td>暗夜殺戮者</td><td>近攻+3、昏迷耐性+4</td></tr>
+            <tr><td>黑暗殺手</td><td>遠攻+3、遠命+1、昏迷耐性+4</td></tr>
+            <tr><td>地獄死亡騎士</td><td>減傷+2、PVP 減傷+2</td></tr>
+            <tr><td>幻影騎士</td><td>藥水+3%、減傷+1、暈命+3、暈抗+4</td></tr>
+            <tr><td>黑暗哈汀</td><td>防禦+2、近攻+3</td></tr>
+            <tr><td>憎恨的死亡騎士</td><td>近攻+3、近命+2、暈命+3</td></tr>
+            <tr><td>警衛(矛)隊長</td><td>近攻+2、減傷+1、暈抗+4</td></tr>
+            <tr><td>警衛(弓)隊長</td><td>藥水+2%、遠攻+2、暈抗+4</td></tr>
+            <tr><td>帕拉丁</td><td>近攻+2、PVP 傷+1、減傷+1</td></tr>
+            <tr><td>哈汀之魂</td><td>魔攻+2、MP+125、暈抗+4</td></tr>
+            <tr><td>漆黑的死亡騎士</td><td>近攻+3、暈命+3%、藥水+3</td></tr>
+            <tr><td>不敗的甘特</td><td>暈抗+3、暈命+3%、減傷+1</td></tr>
+            <tr><td>赫發斯特斯</td><td>暈抗+3、暈命+3%、無視減傷+1</td></tr>
+            <tr><td>第1代多魯嘉</td><td>近傷+3、暈命+3%、近爆+1%</td></tr>
+            <tr><td>吉倫</td><td>暈抗+4、魔攻+2、魔命+1</td></tr>
+            <tr><td>貝里斯</td><td>近傷+3、暈抗+4%、PVP 減傷+1</td></tr>
+            <tr><td>暗黑龍宙斯</td><td>魔攻+3、魔命+3</td></tr>
+            <tr><td>暗黑龍阿頓</td><td>近攻+3、暈命+6%、無視減傷+3</td></tr>
+            <tr><td>暗黑龍絲莉安</td><td>遠攻+3、暈命+6%、無視減傷+3</td></tr>
+            <tr><td>烈焰死亡騎士</td><td>近傷+3、暈命+3%、PVP傷+2</td></tr>
+            <tr><td>國王 艾歐丁</td><td>暈命+3%、暈抗+4%、無視減傷+1</td></tr>
+            <tr><td>勞待碼依</td><td>暈命+3%、暈抗+4%、無視減傷+1</td></tr>
+            <tr><td>暗殺的雅莉亞精靈</td><td>暈抗+4%、恐怖抗+3%、無視減傷+3</td></tr>
+            <tr><td>龍鬥士</td><td>近攻+3、暈命+3%、暈抗+4%、恐抗+3%、無視閃避+1</td></tr>
+            <tr><td>禪</td><td>近傷+3、暈命+3%、暈抗+4%、恐抗+3%、無視近閃+1</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 神話變身 -->
+      <div class="h-line rv"><span class="h-line__t">👑 神話變身</span><span class="chip chip--gold">神話 · 16 種 — 強力複合屬性</span></div>
+      <div class="tip tip--gold rv">
+        <div class="tip__ic">🔒</div>
+        <div class="tip__b">神話變身目前<b>尚未開放合成</b>，以下為預覽屬性資料，實際開放時間請留意官方公告。</div>
+      </div>
+      <div class="ytable-wrap rv" style="margin-bottom:22px">
+        <table class="ytable">
+          <thead><tr><th>變身名稱</th><th>複合屬性加成</th></tr></thead>
+          <tbody>
+            <tr><td colspan="2" style="text-align:center;font-weight:700;color:var(--jade-hi);background:var(--jade-deep);letter-spacing:.1em">🏹 遠程可使用</td></tr>
+            <tr><td>變形怪(神話)</td><td>昏迷耐性+5、恐懼耐性+4%、PVP傷害減免+2、PVP傷害+3、三重矢攻擊力+6、近距離攻擊力+5、遠距離攻擊力+5、魔攻+3</td></tr>
+            <tr><td>妖精(神話)</td><td>同王族(神話)</td></tr>
+            <tr><td>槍手(神話)</td><td>遠距離攻擊力+7、遠距離命中+5、昏迷耐性+5、支撐耐性+4、三重矢傷害+7</td></tr>
+            <tr><td>狂戰士(神話)</td><td>近+遠距離攻擊力+4、近+遠命中+3、魔攻+8、魔法命中+3、三重矢傷害+5、昏迷命中+8%、昏迷耐性+5、支撐耐性+4、PVP傷害+2、PVP減免+10</td></tr>
+            <tr><td>雷神(神話)</td><td>近+遠距離攻擊力+5、近+遠命中+3、魔攻+8、魔法命中+3、三重矢傷害+5、昏迷命中+8%、昏迷耐性+5、支撐耐性+4、PVP傷害+2、PVP減免+2</td></tr>
+            <tr><td>海王波賽頓(神話)</td><td>近距離攻擊力+3、遠距離攻擊力+8、遠距離命中+5、昏迷命中+8%、昏迷耐性+5、恐懼耐性+4、PVP傷害減免+2、魔攻+8</td></tr>
+            <tr><td colspan="2" style="text-align:center;font-weight:700;color:var(--seal-hi);background:#3a1512;letter-spacing:.1em">⚔ 近戰通用</td></tr>
+            <tr><td>白金死亡騎士(神話)</td><td>昏迷耐性+5、PVP傷害減免+2、近距離攻擊力+6、近戰爆擊+3、魔攻+3、攻擊時機率發動地獄火傷害</td></tr>
+            <tr><td>白金巴風特(神話)</td><td>昏迷耐性+8%、SP+10、PVP傷害減免+5、近距離攻擊力+3、近距離命中+10、魔法爆擊+5</td></tr>
+            <tr><td>神聖劍士(神話)</td><td>近距離攻擊力+8、昏迷命中+8%、昏迷耐性+5、近遠命中+3、PVP傷害減免+2</td></tr>
+            <tr><td>龍騎士(神話)</td><td>近距離攻擊力+5、近距離命中+3、魔攻+5、魔法命中+3、昏迷命中+8%、昏迷耐性+5、支撐耐性+4、PVP傷害+2、PVP減免+3、藥水恢復量+50</td></tr>
+            <tr><td>黑暗騎士(神話)</td><td>近距離攻擊力+8、昏迷命中+8%、昏迷耐性+5、近遠命中+3、PVP傷害減免+2</td></tr>
+            <tr><td>死神(神話)</td><td>近距離攻擊力+5、近距離命中+10、昏迷命中+8%、昏迷耐性+8、恐懼耐性+4、PVP傷害減免+2、吸取MP+10、魔攻+12、魔法爆擊+5</td></tr>
+            <tr><td>王族(神話)</td><td>近+遠距離攻擊力+5、近+遠命中+3、魔攻+5、魔法命中+3、三重矢傷害+5、昏迷命中+8%、昏迷耐性+5、支撐耐性+4、PVP傷害+2、PVP減免+2</td></tr>
+            <tr><td>騎士(神話)</td><td>同王族(神話)</td></tr>
+            <tr><td>法師(神話)</td><td>同王族(神話)</td></tr>
+            <tr><td>黑妖(神話)</td><td>同王族(神話)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 唯一變身 -->
+      <div class="h-line rv"><span class="h-line__t">💎 唯一變身</span><span class="chip chip--gold">UNIQUE — 尚未開放</span></div>
+      <div class="card rv" style="text-align:center;margin-bottom:8px">
+        <div style="font-size:2rem;margin-bottom:8px">🔒</div>
+        <div style="font-family:'Cinzel',serif;font-size:.86rem;letter-spacing:.12em;color:var(--jade-hi)">UNIQUE TRANSFORM — NOT YET AVAILABLE</div>
+        <p style="color:var(--tx);font-size:.82rem;margin-top:10px">唯一變身目前尚未開放，敬請期待後續更新公告。</p>
+      </div>
+
+      <!-- 警告 -->
+      <div class="tip tip--seal rv">
+        <div class="tip__ic">⚠</div>
+        <div class="tip__b">遊戲內因字數限制過多會造成閃退，傳說以上變身的詳細能力說明請至官網查詢確認。</div>
+      </div>
+
+      <!-- 頁面導覽 -->
+      <div class="rv" style="display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-top:28px">
+        <a class="btn btn--ghost" href="feature-dolls.html">← 娃娃介紹</a>
+        <a class="btn btn--ghost" href="features-overview.html">▲ 返回系統列表</a>
+        <a class="btn btn--gold" href="feature-job-power.html">職業之力 ›</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ 頁尾 ═══════════ -->
+  <footer class="foot">
+    <div class="foot__top">
+      <div class="foot__brand"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="n">曜魂天堂</span></div>
+      <nav class="foot__links">
+        <a href="features-overview.html">特色介紹</a><span class="foot__sep">·</span>
+        <a href="rules.html">遊戲規章</a><span class="foot__sep">·</span>
+        <a href="sponsor.html">贊助須知</a><span class="foot__sep">·</span>
+        <a href="disclaimer.html">免責聲明</a><span class="foot__sep">·</span>
+        <a href="contact.html">聯絡我們</a>
+      </nav>
+    </div>
+    <div class="foot__copy"><p>© 2026 曜魂天堂 · 本遊戲限 18 歲以上玩家參與 · 遊戲有成癮性，請節制遊玩 · 本站與 NC Soft 官方無任何關聯</p></div>
+    <div class="foot__credit">
+      <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" style="color:#b6892a;font-size:12px;letter-spacing:1.2px;font-weight:600;text-shadow:0 0 10px rgba(201,169,110,0.36);text-decoration:none;">阿柴美工 LINE @323rffot 美工找我~</a>
+      <a href="https://www.gamex123.com/lineage.html" target="_blank" rel="noopener" style="display:inline-flex;opacity:0.82;transition:opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.82'">
+        <img src="../assets/images/private-server-123.gif" alt="私服123" style="display:block;width:78px;height:auto;" loading="lazy">
+      </a>
+    </div>
+  </footer>
+
+  </div><!-- /.page -->
+
+  <!-- ═══════════ 浮動側欄 ═══════════ -->
+  <div class="float">
+    <a href="sponsor.html" title="贊助"><svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61z"/></svg>贊助</a>
+    <a href="download.html" title="下載"><svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>下載</a>
+    <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" class="line" title="社群"><svg viewBox="0 0 24 24"><path d="M24 10.3C24 4.94 18.62.57 12 .57S0 4.94 0 10.3c0 4.81 4.27 8.84 10.04 9.61.39.08.92.26 1.06.59.12.3.08.77.04 1.08l-.17 1.02c-.04.3-.24 1.19 1.05.64 1.29-.54 6.92-4.08 9.44-6.97C23.18 14.4 24 12.46 24 10.3M7.75 13.5H5.36a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.35 0 .63.28.63.63v4.13h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63m2.47-.63c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m5.74 0c0 .27-.17.51-.43.6a.65.65 0 01-.71-.22l-2.44-3.32v2.94c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.27.17-.51.43-.6a.62.62 0 01.7.22l2.46 3.33V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m3.86-2.38c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-1.76v1.12h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-2.39a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63h2.39c.35 0 .63.28.63.63 0 .35-.28.63-.63.63h-1.76v1.13h1.76"/></svg>社群</a>
+  </div>
+
+  <script>
+  (function(){var b=document.getElementById('burger'),m=document.getElementById('mnav');if(b&&m)b.addEventListener('click',function(){m.classList.toggle('open');});})();
+  (function(){var els=document.querySelectorAll('.rv');if(!els.length||!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});els.forEach(function(e){io.observe(e);});})();
+  </script>
+</body>
+</html>

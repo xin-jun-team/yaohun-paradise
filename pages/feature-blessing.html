@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="曜魂天堂 — 遊戲特色與核心系統介紹">
-<title>遊戲特色 — 曜魂天堂</title>
+<meta name="description" content="曜魂天堂 — 裝備祝福屬性，透過祝福卷軸讓裝備突破極限">
+<title>裝備祝福屬性 — 曜魂天堂</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&family=Cinzel:wght@600&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
     <a href="../index.html"><span class="n">序</span>開卷</a>
     <a href="news.html"><span class="n">壹</span>公告</a>
     <a href="events.html"><span class="n">貳</span>活動</a>
-    <a href="features-overview.html" class="active"><span class="n">參</span>特色</a>
+    <a href="features-overview.html"><span class="n">參</span>特色</a>
     <a href="download.html"><span class="n">肆</span>下載</a>
     <span class="rail__line">曜耀臨世</span>
   </aside>
@@ -49,120 +49,80 @@
     </div>
   </nav>
 
-  <!-- ═══════════ 卷首 ═══════════ -->
+    <!-- ═══════════ 卷首 ═══════════ -->
   <header class="phero">
     <div class="phero__bg"></div>
     <div class="phero__veil"></div>
     <div class="phero__in">
-      <div class="phero__num">參</div>
+      <div class="phero__num">祝</div>
       <div>
-        <div class="phero__eyebrow">FEATURES · 遊戲特色</div>
-        <h1 class="phero__h1">遊戲<em>特色</em></h1>
-        <p class="phero__sub">以下為曜魂天堂的核心系統與特色一覽。</p>
+        <div class="phero__eyebrow">BLESSING · 裝備祝福屬性</div>
+        <h1 class="phero__h1">裝備<em>祝福屬性</em></h1>
+        <p class="phero__sub">透過祝福卷軸，讓你的裝備突破極限</p>
       </div>
     </div>
-    <div class="phero__crumb"><a href="../index.html">首頁</a> ／ 遊戲特色</div>
+    <div class="phero__crumb"><a href="../index.html">首頁</a> ／ <a href="features-overview.html">遊戲特色</a> ／ 裝備祝福屬性</div>
   </header>
 
-  <!-- ═══════════ 特色內文 ═══════════ -->
+<!-- ═══════════ 祝福內文 ═══════════ -->
   <section class="sec sec--a">
     <div class="wrap">
 
-      <!-- 系統介紹 -->
-      <div class="h-line rv"><span class="h-line__t">◈ 系統介紹</span></div>
+      <div class="h-line rv"><span class="h-line__t">◆ 系統說明</span></div>
+      <div class="tip tip--gold rv">
+        <div class="tip__ic">📜</div>
+        <div class="tip__b">使用祝福卷軸可為裝備附加<b>額外屬性加成</b>，依照裝備部位使用對應的祝福卷軸，每件裝備均可獲得永久強化效果。</div>
+      </div>
 
-      <div class="grid-3 rv">
+      <div class="h-line rv"><span class="h-line__t">◈ 祝福卷軸一覽</span></div>
+      <div class="grid-3 rv" style="margin-bottom:26px">
 
-        <a class="card" href="feature-welfare.html">
-          <div class="card__t"><span class="seal">福</span>福利大反饋</div>
-          <p class="prose" style="margin:0">每人每週免費領取 3,000 商城鑽，想買什麼自己挑，曜魂天堂回饋每位勇士的長期承諾。</p>
-        </a>
+        <!-- 對武器祝福的卷軸 -->
+        <div class="card">
+          <div class="card__t">對武器祝福的卷軸</div>
+          <div class="chip chip--gold" style="margin-bottom:12px">WEAPON BLESSING</div>
+          <ul class="ylist">
+            <li>額外攻擊 <b>+2</b></li>
+            <li>魔杖類魔攻 <b>+2</b></li>
+          </ul>
+        </div>
 
-        <a class="card" href="feature-blessing.html">
-          <div class="card__t"><span class="seal">祝</span>裝備祝福屬性</div>
-          <p class="prose" style="margin:0">使用祝福卷軸為武器、防具、飾品附加額外屬性加成，突破裝備極限。</p>
-        </a>
+        <!-- 對防具祝福的卷軸 -->
+        <div class="card">
+          <div class="card__t">對防具祝福的卷軸</div>
+          <div class="chip chip--gold" style="margin-bottom:12px">ARMOR BLESSING</div>
+          <ul class="ylist">
+            <li>HP <b>+20</b></li>
+            <li>防禦 <b>-1</b></li>
+          </ul>
+        </div>
 
-        <a class="card" href="feature-pet.html">
-          <div class="card__t"><span class="seal">寵</span>寵物系統</div>
-          <p class="prose" style="margin:0">前往寵物之島捕捉並培育寵物，透過進化果實升至三階，並可製作專屬裝備大幅強化寵物戰力。</p>
-        </a>
+        <!-- 對飾品祝福的卷軸 -->
+        <div class="card">
+          <div class="card__t">對飾品祝福的卷軸</div>
+          <div class="chip chip--gold" style="margin-bottom:12px">ACCESSORY BLESSING</div>
+          <ul class="ylist">
+            <li>MP <b>+10</b></li>
+            <li>魔法防禦 <b>+2</b></li>
+          </ul>
+        </div>
 
-        <a class="card" href="feature-prestige.html">
-          <div class="card__t"><span class="seal">威</span>威望系統</div>
-          <p class="prose" style="margin:0">刷怪累積威望點數，解鎖 12 階威望稱號，每階均提供複合屬性加成，彰顯強者地位。</p>
-        </a>
+      </div>
 
-        <a class="card" href="feature-online-reward.html">
-          <div class="card__t"><span class="seal">線</span>在線禮包</div>
-          <p class="prose" style="margin:0">LV 58 以上角色每在線 50 分鐘，系統自動派送禮包至背包，含藍鑽、藥水、變身卡等豐富獎勵。</p>
-        </a>
+      <div class="tip tip--seal rv">
+        <div class="tip__ic">⚠️</div>
+        <div class="tip__b">祝福卷軸可從 <b>高崙研究所</b>、<b>古代遺忘</b> 掉落取得，亦可透過贊助商城獲得。<br>⚠️ 每件裝備可使用一次祝福卷軸，效果為<b>永久加成</b>。</div>
+      </div>
 
-        <a class="card" href="feature-maps.html">
-          <div class="card__t"><span class="seal">圖</span>地圖介紹</div>
-          <p class="prose" style="margin:0">從新手一般地圖到限時副本，各區域掉落分佈與建議等級一覽，掌握資源核心地圖。</p>
-        </a>
-
-        <a class="card" href="feature-transform.html">
-          <div class="card__t"><span class="seal">變</span>變身介紹</div>
-          <p class="prose" style="margin:0">7 種稀有度、100+ 種型態，使用變身石化身強大形態，攻速與詠速大幅提升，傳說以上另附屬性加成。</p>
-        </a>
-
-        <a class="card" href="feature-daily-quest.html">
-          <div class="card__t"><span class="seal">任</span>每日任務</div>
-          <p class="prose" style="margin:0">每日完成各地圖擊殺任務，獲得曜魂禮盒，內含稀有道具、金幣與棒棒糖，任務於每日 18:00 重置。</p>
-        </a>
-
-        <a class="card" href="feature-dolls.html">
-          <div class="card__t"><span class="seal">娃</span>娃娃介紹</div>
-          <p class="prose" style="margin:0">召喚娃娃陪同冒險，共 130+ 隻橫跨 7 種稀有度，收集特定組合可觸發收藏加成效果。</p>
-        </a>
-
-        <a class="card" href="feature-royal-gear.html">
-          <div class="card__t"><span class="seal">王</span>王族專屬裝備</div>
-          <p class="prose" style="margin:0">王族限定的專屬裝備，提供 HP、近距離攻擊與魔法防禦加成，能力依伺服器進度動態調整。</p>
-        </a>
-
-        <a class="card" href="feature-reborn.html">
-          <div class="card__t"><span class="seal">轉</span>轉生系統</div>
-          <p class="prose" style="margin:0">突破等級極限，透過轉生獲得專屬強化裝備，1~3 轉逐階提升，挑戰更高層次的力量。</p>
-        </a>
-
-        <a class="card" href="feature-daily-quest.html">
-          <div class="card__t"><span class="seal">技</span>職業特殊技能</div>
-          <p class="prose" style="margin:0">各職業專屬強力技能，王者之劍、狂襲、精靈之暈、力場、復仇，透過每日任務獲取技能書。</p>
-        </a>
-
-        <a class="card" href="feature-summon.html">
-          <div class="card__t"><span class="seal">召</span>法師召喚系統</div>
-          <p class="prose" style="margin:0">召喚獸特殊強化，變形怪、巨大牛人、黑豹三大終極召喚，需召喚控制戒指解鎖。</p>
-        </a>
-
-        <a class="card" href="feature-soul-core.html">
-          <div class="card__t"><span class="seal">核</span>噬魂魔核</div>
-          <p class="prose" style="margin:0">製作裝備與道具的核心材料，全 BOSS 均會掉落，碎片可合成完整魔核。</p>
-        </a>
-
-        <a class="card" href="feature-bonus-coin.html">
-          <div class="card__t"><span class="seal">幣</span>紅利幣</div>
-          <p class="prose" style="margin:0">累積紅利幣至主城 NPC 馬德里兌換，升級 VIP 階級享受豐厚能力加成與商城道具。</p>
-        </a>
-
-        <a class="card" href="feature-dragon-ball.html">
-          <div class="card__t"><span class="seal">龍</span>七龍珠</div>
-          <p class="prose" style="margin:0">集七龍珠，戰力無極限。</p>
-        </a>
-
-        <a class="card" href="feature-boss-gear.html">
-          <div class="card__t"><span class="seal">裝</span>BOSS 裝備</div>
-          <p class="prose" style="margin:0">擊殺每日 BOSS，收集材料打造傳說套裝。建議成群結隊，切勿一意孤行！</p>
-        </a>
-
-        <a class="card" href="feature-high-skill.html">
-          <div class="card__t"><span class="seal">高</span>高技獲取途徑</div>
-          <p class="prose" style="margin:0">高技碎片箱與各式高技的取得來源一覽，掌握 BOSS 掉落與扭蛋途徑，快速集齊強力技能。</p>
-        </a>
-
+      <!-- 上下頁導覽 -->
+      <div class="rv" style="display:flex;align-items:center;gap:12px;margin:26px 0 12px">
+        <span style="font-family:var(--serif);font-weight:900;font-size:.92rem;letter-spacing:.1em;color:var(--jade-hi);white-space:nowrap">◈ 上下頁導覽</span>
+        <span style="flex:1;height:1px;background:linear-gradient(90deg,var(--line-j),transparent)"></span>
+      </div>
+      <div class="rv" style="display:flex;gap:14px;flex-wrap:wrap">
+        <a class="btn btn--ghost" href="features-overview.html">← 系統列表</a>
+        <a class="btn btn--gold" href="features-overview.html">▲ 返回系統列表</a>
+        <a class="btn btn--ghost" href="features-overview.html">系統列表 ›</a>
       </div>
 
     </div>
