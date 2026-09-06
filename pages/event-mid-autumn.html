@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="曜魂天堂 — 中秋月圓人團圓活動">
+<title>中秋月圓人團圓 — 曜魂天堂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../assets/images/logo-circle.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+  /* 中秋活動 — 沿用曜魂翡翠鎏金變數 */
+  .ma-dual{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:680px){.ma-dual{grid-template-columns:1fr}}
+  .ma-stat{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+  .ma-stat li{display:flex;align-items:center;gap:8px;padding:9px 14px;background:rgba(46,169,104,.10);border-left:2px solid var(--gold);border-radius:4px;font-size:.9rem;color:var(--tx)}
+  .ma-stat li strong{color:var(--gold-hi);font-weight:700}
+  .ma-stat li .ma-minus{color:var(--seal-hi);font-weight:700}
+  .ma-maps{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+  .ma-sub{font-family:var(--serif);font-weight:900;color:var(--jade-hi);font-size:1rem;margin:20px 0 12px;letter-spacing:.05em}
+  .ma-drops{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:8px}
+  .ma-drops li{display:flex;align-items:center;gap:8px;padding:9px 13px;background:rgba(8,17,11,.6);border:1px solid var(--line-j);border-left:2px solid var(--jade);border-radius:6px;font-size:.85rem;color:var(--tx)}
+  .ma-drops li::before{content:"◆";color:var(--gold);font-size:.58rem;flex-shrink:0}
+  .ma-drops li.ma-rare{border-left-color:var(--seal)}
+  .ma-drops li.ma-rare::before{content:"✦";color:var(--seal-hi)}
+  .ma-back{display:inline-flex;align-items:center;gap:8px;margin-top:8px;padding:11px 26px;border-radius:100px;font-weight:700;font-size:.86rem;text-decoration:none;background:rgba(232,185,58,.14);color:var(--gold-hi);border:1px solid var(--line)}
+  .ma-back:hover{background:rgba(232,185,58,.22)}
+</style>
+</head>
+<body>
+
+  <!-- ═══════════ 左側章回索引書脊 ═══════════ -->
+  <aside class="rail rail--sub">
+    <a href="../index.html" class="rail__emblem"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"></a>
+    <a href="../index.html"><span class="n">序</span>開卷</a>
+    <a href="news.html"><span class="n">壹</span>公告</a>
+    <a href="events.html" class="active"><span class="n">貳</span>活動</a>
+    <a href="features-overview.html"><span class="n">參</span>特色</a>
+    <a href="download.html"><span class="n">肆</span>下載</a>
+    <span class="rail__line">曜耀臨世</span>
+  </aside>
+
+  <div class="page">
+
+  <!-- ═══════════ 頂部選單 ═══════════ -->
+  <nav class="top">
+    <div class="top__in">
+      <a href="../index.html" class="top__logo"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="top__name">曜魂天堂</span></a>
+      <div class="top__menu">
+        <a href="download.html" class="prime">遊戲下載</a>
+        <a href="news.html">最新公告</a>
+        <a href="events.html">活動資訊</a>
+        <a href="features-overview.html">遊戲特色</a>
+        <a href="version.html">版本設定</a>
+        <a href="items-overview.html">裝備道具</a>
+        <a href="boss-guide.html">BOSS介紹</a>
+        <a href="sponsor.html">贊助說明</a>
+      </div>
+      <button class="top__burger" id="burger" aria-label="選單"><span></span><span></span><span></span></button>
+    </div>
+    <div class="top__mobile" id="mnav">
+      <a href="download.html">遊戲下載</a><a href="news.html">最新公告</a><a href="events.html">活動資訊</a>
+      <a href="features-overview.html">遊戲特色</a><a href="version.html">版本設定</a><a href="items-overview.html">裝備道具</a>
+      <a href="boss-guide.html">BOSS介紹</a><a href="sponsor.html">贊助說明</a><a href="promote.html">推文推廣</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════ 卷首 ═══════════ -->
+  <header class="phero">
+    <div class="phero__bg"></div>
+    <div class="phero__veil"></div>
+    <div class="phero__in">
+      <div class="phero__num">月</div>
+      <div>
+        <div class="phero__eyebrow">MID-AUTUMN · 中秋活動</div>
+        <h1 class="phero__h1">中秋<em>月圓人團圓</em></h1>
+        <p class="phero__sub">皓月當空 · 團圓共慶——狩獵（中秋）月光型男，擊討天蓬元帥，攜親友共赴這場中秋盛宴，福澤同霑。</p>
+      </div>
+    </div>
+    <div class="phero__crumb"><a href="../index.html">首頁</a> ／ <a href="events.html">活動資訊</a> ／ 中秋月圓人團圓</div>
+  </header>
+
+  <!-- ═══════════ 活動內文 ═══════════ -->
+  <section class="sec sec--a">
+    <div class="wrap">
+
+      <!-- 活動時間 -->
+      <div class="tip tip--gold rv" style="margin-top:0">
+        <div class="tip__ic">🌕</div>
+        <div class="tip__b"><b>活動時間：</b>即日起 ~ 09/30（三）18:00　·　活動結束將移除回收「柚子酒」與「烤肉串」，請於期限內用畢。</div>
+      </div>
+
+      <!-- 活動道具 -->
+      <div class="h-line rv" style="margin-top:30px"><span class="h-line__t">🎐 活動道具能力</span></div>
+      <div class="ma-dual rv">
+        <div class="card">
+          <div class="card__t"><span class="seal">酒</span>柚子酒</div>
+          <p class="prose" style="margin:0 0 12px;font-size:.84rem;color:var(--tx-mut)">使用後獲得增益效果 · 持續 300 秒</p>
+          <ul class="ma-stat">
+            <li>力 · 敏 · 智 <strong>+1</strong></li>
+            <li>防禦 <span class="ma-minus">-3</span></li>
+            <li>抗暈眩 <strong>+2</strong></li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card__t"><span class="seal">豬</span>天篷豬公</div>
+          <p class="prose" style="margin:0 0 12px;font-size:.84rem;color:var(--tx-mut)">穿戴能力 · 中秋限定飾品</p>
+          <ul class="ma-stat">
+            <li>力 · 敏 · 智 <strong>+1</strong></li>
+            <li>HP <strong>+399</strong></li>
+            <li>近／遠額外傷害 <strong>+1</strong></li>
+            <li>近／遠命中 <strong>+2</strong></li>
+            <li>SP <strong>+1</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 活動怪物 -->
+      <div class="h-line rv" style="margin-top:34px"><span class="h-line__t">🌙 活動怪物 · （中秋）月光型男</span></div>
+      <div class="card rv">
+        <div class="ma-sub" style="margin-top:0">▸ 出沒地圖</div>
+        <div class="ma-maps">
+          <span class="chip">舊傲慢之塔 10F</span><span class="chip">舊傲慢之塔 20F</span><span class="chip">舊傲慢之塔 30F</span>
+          <span class="chip">舊傲慢之塔 40F</span><span class="chip">舊傲慢之塔 50F</span><span class="chip">舊傲慢之塔 60F</span>
+          <span class="chip">舊傲慢之塔 70F</span><span class="chip">舊傲慢之塔 80F</span><span class="chip">舊傲慢之塔 90F</span>
+          <span class="chip">舊傲慢之塔 100F</span><span class="chip">地底湖</span><span class="chip">精靈墓穴</span>
+          <span class="chip">新遺忘之島</span><span class="chip">高崙研究所</span>
+        </div>
+        <div class="ma-sub">▸ 掉落一覽</div>
+        <ul class="ma-drops">
+          <li>柚子酒</li>
+          <li>烤肉串</li>
+          <li>金幣</li>
+          <li>高級製作秘笈</li>
+          <li>稀有製作秘笈</li>
+          <li>高級武器箱</li>
+          <li>一般防具箱</li>
+          <li>高級防具箱</li>
+          <li>一般飾品箱</li>
+          <li>高級飾品箱</li>
+          <li>對盔甲施法的卷軸</li>
+          <li>受祝福的對盔甲施法的卷軸</li>
+          <li>對武器施法的卷軸</li>
+          <li>受祝福的對武器施法的卷軸</li>
+          <li>噬魂魔核碎片</li>
+        </ul>
+      </div>
+
+      <!-- 活動 BOSS -->
+      <div class="h-line rv" style="margin-top:34px"><span class="h-line__t">🐷 活動 BOSS · 色瞇瞇的天蓬元帥</span></div>
+      <div class="tip tip--seal rv">
+        <div class="tip__ic">📍</div>
+        <div class="tip__b">出沒位置：<b>市場中心</b>（隨機出沒）　·　市場中心傳送請找 <b>傳送師 → 各大事件</b>。</div>
+      </div>
+      <div class="card rv">
+        <div class="ma-sub" style="margin-top:0">▸ 掉落一覽</div>
+        <ul class="ma-drops">
+          <li>天篷豬公</li>
+          <li>技術書（衝擊之暈）</li>
+          <li>魔法書（聖結界）</li>
+          <li>精靈水晶（三重矢）</li>
+          <li>黑暗精靈水晶（雙重破壞）</li>
+          <li>金幣</li>
+          <li>黑色血痕</li>
+          <li class="ma-rare">少了刀刃的武器</li>
+          <li>噬魂鑽</li>
+          <li>受祝福的對盔甲施法的卷軸</li>
+          <li>受祝福的對武器施法的卷軸</li>
+          <li>受詛咒的對盔甲施法的卷軸</li>
+          <li>受詛咒的對武器施法的卷軸</li>
+          <li>詛咒的防爆卷軸</li>
+          <li>一般的防爆卷軸</li>
+          <li>祝福的防爆卷軸</li>
+          <li>威力彩中獎升階石</li>
+          <li>獸魂升階石</li>
+          <li>聖物快快長大藥劑</li>
+          <li>高級製作秘笈</li>
+          <li>稀有製作秘笈</li>
+          <li>英雄製作秘笈</li>
+          <li>一般武器箱</li>
+          <li>高級武器箱</li>
+          <li>稀有武器箱</li>
+          <li>一般防具箱</li>
+          <li>高級防具箱</li>
+          <li>稀有防具箱</li>
+          <li>一般飾品箱</li>
+          <li>高級飾品箱</li>
+          <li>稀有飾品箱</li>
+          <li>精靈水晶（精靈之暈）</li>
+          <li>技術書（狂襲）</li>
+          <li>魔法書（力場）</li>
+          <li>黑暗精靈水晶（復仇）</li>
+          <li>魔法書（王者之劍）</li>
+          <li>噬魂棒棒糖</li>
+        </ul>
+      </div>
+
+      <!-- 兌換 NPC -->
+      <div class="h-line rv" style="margin-top:34px"><span class="h-line__t">🏮 兌換 NPC · 中秋護衛隊</span></div>
+      <p class="prose rv" style="margin:0 0 14px;font-size:.86rem;color:var(--tx-mut)">消耗「烤肉串」向中秋護衛隊兌換豐厚中秋好禮。</p>
+      <div class="ytable-wrap rv">
+        <table class="ytable">
+          <thead>
+            <tr><th>兌換物品</th><th>需求（烤肉串）</th><th>限購</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>天篷豬公</td><td><span class="g">89,815</span></td><td>—</td></tr>
+            <tr><td>赫卡特的防禦</td><td><span class="g">99,999</span></td><td>—</td></tr>
+            <tr><td>赫卡特的攻擊</td><td><span class="g">99,999</span></td><td>—</td></tr>
+            <tr><td>防止噴物品（帶幾個防噴幾個）</td><td><span class="g">499</span></td><td><span class="j">限購 10</span></td></tr>
+            <tr><td>精靈水晶（精靈之暈）</td><td><span class="g">9,999</span></td><td>—</td></tr>
+            <tr><td>技術書（狂襲）</td><td><span class="g">39,999</span></td><td>—</td></tr>
+            <tr><td>魔法書（力場）</td><td><span class="g">39,999</span></td><td>—</td></tr>
+            <tr><td>黑暗精靈水晶（復仇）</td><td><span class="g">39,999</span></td><td>—</td></tr>
+            <tr><td>魔法書（王者之劍）</td><td><span class="g">39,999</span></td><td>—</td></tr>
+            <tr><td>穿雲箭（組隊）</td><td><span class="g">999</span></td><td>—</td></tr>
+            <tr><td>穿雲箭（血盟）</td><td><span class="g">999</span></td><td>—</td></tr>
+            <tr><td>獸魂升階石</td><td><span class="g">4,815</span></td><td>—</td></tr>
+            <tr><td>威力彩中獎升階石</td><td><span class="g">4,815</span></td><td>—</td></tr>
+            <tr><td>聖物快快長大藥劑</td><td><span class="g">4,815</span></td><td>—</td></tr>
+            <tr><td>職業之力箱（自選）</td><td><span class="g">177,777</span></td><td>—</td></tr>
+            <tr><td>神龍之羽</td><td><span class="g">39,999</span></td><td>—</td></tr>
+            <tr><td>神龍錢包</td><td><span class="g">19,999</span></td><td><span class="j">個人限購 3 組</span></td></tr>
+            <tr><td>職業變形卷軸 7日</td><td><span class="g">81,500</span></td><td><span class="j">個人限購 1 組</span></td></tr>
+            <tr><td>神話娃娃 5日（自選箱）</td><td><span class="g">81,500</span></td><td><span class="j">個人限購 1 組</span></td></tr>
+            <tr><td>英雄製作秘笈</td><td><span class="g">49,999</span></td><td><span class="j">個人限購 1 組</span></td></tr>
+            <tr><td>萬能藥（力量）</td><td><span class="g">49,999</span></td><td>—</td></tr>
+            <tr><td>萬能藥（體質）</td><td><span class="g">49,999</span></td><td>—</td></tr>
+            <tr><td>萬能藥（敏捷）</td><td><span class="g">49,999</span></td><td>—</td></tr>
+            <tr><td>萬能藥（智慧）</td><td><span class="g">49,999</span></td><td>—</td></tr>
+            <tr><td>萬能藥（精神）</td><td><span class="g">49,999</span></td><td>—</td></tr>
+            <tr><td>萬能藥（魅力）</td><td><span class="g">49,999</span></td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="text-align:center;margin-top:26px"><a href="events.html" class="ma-back">← 返回活動資訊</a></div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ 頁尾 ═══════════ -->
+  <footer class="foot">
+    <div class="foot__top">
+      <div class="foot__brand"><img src="../assets/images/logo-circle.png" alt="曜魂天堂"><span class="n">曜魂天堂</span></div>
+      <nav class="foot__links">
+        <a href="features-overview.html">特色介紹</a><span class="foot__sep">·</span>
+        <a href="rules.html">遊戲規章</a><span class="foot__sep">·</span>
+        <a href="sponsor.html">贊助須知</a><span class="foot__sep">·</span>
+        <a href="disclaimer.html">免責聲明</a><span class="foot__sep">·</span>
+        <a href="contact.html">聯絡我們</a>
+      </nav>
+    </div>
+    <div class="foot__copy"><p>© 2026 曜魂天堂 · 本遊戲限 18 歲以上玩家參與 · 遊戲有成癮性，請節制遊玩 · 本站與 NC Soft 官方無任何關聯</p></div>
+    <div class="foot__credit">
+      <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" style="color:#b6892a;font-size:12px;letter-spacing:1.2px;font-weight:600;text-shadow:0 0 10px rgba(201,169,110,0.36);text-decoration:none;">阿柴美工 LINE @323rffot 美工找我~</a>
+      <a href="https://www.gamex123.com/lineage.html" target="_blank" rel="noopener" style="display:inline-flex;opacity:0.82;transition:opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.82'">
+        <img src="../assets/images/private-server-123.gif" alt="私服123" style="display:block;width:78px;height:auto;" loading="lazy">
+      </a>
+    </div>
+  </footer>
+
+  </div><!-- /.page -->
+
+  <!-- ═══════════ 浮動側欄 ═══════════ -->
+  <div class="float">
+    <a href="sponsor.html" title="贊助"><svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61z"/></svg>贊助</a>
+    <a href="download.html" title="下載"><svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>下載</a>
+    <a href="https://lin.ee/UbLA1Dq" target="_blank" rel="noopener" class="line" title="社群"><svg viewBox="0 0 24 24"><path d="M24 10.3C24 4.94 18.62.57 12 .57S0 4.94 0 10.3c0 4.81 4.27 8.84 10.04 9.61.39.08.92.26 1.06.59.12.3.08.77.04 1.08l-.17 1.02c-.04.3-.24 1.19 1.05.64 1.29-.54 6.92-4.08 9.44-6.97C23.18 14.4 24 12.46 24 10.3M7.75 13.5H5.36a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.35 0 .63.28.63.63v4.13h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63m2.47-.63c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m5.74 0c0 .27-.17.51-.43.6a.65.65 0 01-.71-.22l-2.44-3.32v2.94c0 .34-.28.63-.63.63a.63.63 0 01-.63-.63V8.11c0-.27.17-.51.43-.6a.62.62 0 01.7.22l2.46 3.33V8.11c0-.35.28-.63.63-.63.34 0 .63.28.63.63v4.76m3.86-2.38c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-1.76v1.12h1.76c.35 0 .63.28.63.63 0 .34-.28.63-.63.63h-2.39a.63.63 0 01-.63-.63V8.11c0-.35.28-.63.63-.63h2.39c.35 0 .63.28.63.63 0 .35-.28.63-.63.63h-1.76v1.13h1.76"/></svg>社群</a>
+  </div>
+
+  <script>
+  (function(){var b=document.getElementById('burger'),m=document.getElementById('mnav');if(b&&m)b.addEventListener('click',function(){m.classList.toggle('open');});})();
+  (function(){var els=document.querySelectorAll('.rv');if(!els.length||!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});els.forEach(function(e){io.observe(e);});})();
+  </script>
+</body>
+</html>
